@@ -6,11 +6,11 @@
    <elementGuidId>814bb7aa-50ca-44af-9e65-c07a076a30c2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;table&quot;]/tbody/tr[1]/td[4]/button[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;table&quot;]/tbody/tr/td[3]/button[2]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>93dd7357-a7d9-4488-9f6b-e10c47bd2199</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-action</value>
+      <webElementGuid>62a5358b-ddfe-4ec4-86ff-365e727186a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:void(0)</value>
+      <webElementGuid>12e364fc-2443-44bc-9db1-0b9006471a57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +45,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Delete</value>
+      <webElementGuid>253b9cb4-ce4f-4d16-8be3-1200c56effd9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>delete_by_id('72')</value>
+      <webElementGuid>c781f293-2f44-416c-b238-cdaf59b275c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;table&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[3]/button[@class=&quot;btn btn-action&quot;]</value>
+      <webElementGuid>24ed216d-45dc-4181-9e68-2d6afb811e68</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@onclick=&quot;delete_by_id('72')&quot;]</value>
+      <webElementGuid>83e19e86-fc62-403f-871a-5589209be916</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='table']/tbody/tr/td[3]/button[2]</value>
+      <webElementGuid>9afd3f79-4ec4-41f6-8883-d5cd5a7946f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ea ea ea'])[1]/following::button[2]</value>
+      <webElementGuid>a7138228-3aa9-400b-8b6a-ac4de46a876d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/following::button[2]</value>
+      <webElementGuid>bfac76e8-6377-4c03-9aff-59c04275b1f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 1 of 1 entries (filtered from 7 total entries)'])[1]/preceding::button[1]</value>
+      <webElementGuid>acfc29bc-93b4-43f1-b5cc-fac4c02a18e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::button[1]</value>
+      <webElementGuid>893764da-a370-4b59-b95b-2fc1e32fca84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,5 +117,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
+      <webElementGuid>499a76b1-5a48-45da-8184-8b42f56e39ab</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

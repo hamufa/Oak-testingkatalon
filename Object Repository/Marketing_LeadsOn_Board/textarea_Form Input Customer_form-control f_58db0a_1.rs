@@ -6,15 +6,18 @@
    <elementGuidId>e260742b-054e-403f-9602-b347c431de15</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='wrapper']/div[3]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/form/div/div[8]/div/textarea</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@placeholder = 'Remarks']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
+      <webElementGuid>df85597c-5b96-4990-acd8-bd9a0e15281d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +33,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>255</value>
+      <webElementGuid>75698a1b-f108-4f5c-9c76-94ac7ee8dce9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +41,7 @@
       <name>rows</name>
       <type>Main</type>
       <value>4</value>
+      <webElementGuid>21ae677a-1d41-4702-922e-ceef48c969c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +49,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Remarks</value>
+      <webElementGuid>eeb7392d-5c63-4738-b304-5aadfa59831d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +57,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control form-control-sm</value>
+      <webElementGuid>d25decab-4ef6-4b50-a1fc-65033a7f6c23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;wrapper&quot;)/div[@class=&quot;content-page&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card new-card&quot;]/div[@class=&quot;card-body&quot;]/div[1]/div[@class=&quot;vm--container&quot;]/div[@class=&quot;vm--modal&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;form-row mt-3&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;form-group&quot;]/textarea[@class=&quot;form-control form-control-sm&quot;]</value>
+      <webElementGuid>2475466a-1159-45f6-9c32-a389b1c59a5d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='wrapper']/div[3]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/form/div/div[8]/div/textarea</value>
+      <webElementGuid>4a43f115-9594-43a1-9f56-f04efe5fd8e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,5 +81,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div/textarea</value>
+      <webElementGuid>1c35a95b-2bfb-4278-90db-b0d2848f1766</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

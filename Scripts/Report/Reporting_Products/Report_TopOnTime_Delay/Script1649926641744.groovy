@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -29,17 +30,19 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Report_ReportTopOnTIme_
 
 WebUI.click(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/a_Login'))
 
+WebUI.focus(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/a_Report'))
+
 WebUI.click(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/a_Report'))
 
 WebUI.click(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/a_Top OnTimeDelay'))
 
 WebUI.click(findTestObject('Report_ReportTopOnTIme_Delay/div_Customer_multiselect__select'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/input_Customer_customer'), 'PT PUIM')
+WebUI.setText(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/input_Customer_customer'), 'PT UYE')
 
 WebUI.sendKeys(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/input_Customer_customer'), Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/input_Customer_customer'), 'yumana')
+WebUI.setText(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/input_Customer_customer'), 'yuaman')
 
 WebUI.sendKeys(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/input_Customer_customer'), Keys.chord(Keys.ENTER))
 
@@ -50,7 +53,7 @@ WebUI.sendKeys(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/in
 
 WebUI.click(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/div_Marketing_multiselect__select'))
 
-WebUI.setText(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/input_Marketing_customer'), 'Kintan')
+WebUI.setText(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/input_Marketing_customer'), 'sidik@szetovimalla.com')
 
 WebUI.sendKeys(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/input_Marketing_customer'), Keys.chord(Keys.ENTER))
 
@@ -60,16 +63,20 @@ WebUI.sendKeys(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/in
 
 WebUI.click(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/div_Kintan dwira'))
 
-WebUI.setText(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/input_Marketing_customer'), 'dwira2')
+WebUI.setText(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/input_Marketing_customer'), 'kofyifilme@yevme.com')
 
 WebUI.sendKeys(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/input_Marketing_customer'), Keys.chord(Keys.ENTER))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/select_CustomMonthlyYearly'), 'yearlyData', 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/select_CustomMonthlyYearly'), 'customData', 
     true)
 
 WebUI.click(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/input_Year_date'))
 
 WebUI.click(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/span_2022'))
+
+WebUI.click(findTestObject('Report_ReportTopOnTIme_Delay/input_Year_date - Copy'))
+
+WebUI.click(findTestObject('Report_ReportTopOnTIme_Delay/span_2022 - Copy'))
 
 WebUI.click(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/button_Preview'))
 

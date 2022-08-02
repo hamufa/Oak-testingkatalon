@@ -21,12 +21,15 @@ WebUI.navigateToUrl('https://dummy.oaktree.id/admin')
 
 WebUI.setText(findTestObject('Master/Master_Driver/Page_Login Panel/input_Welcome to Oaktree_email_user'), 'Cricket@rimbahouse.com')
 
-WebUI.setEncryptedText(findTestObject('Master/Master_Driver/Page_Login Panel/input_Welcome to Oaktree_password'), 
-    'rEXBpEkj5ITeVrsAMSY1Rw==')
+WebUI.setEncryptedText(findTestObject('Master/Master_Driver/Page_Login Panel/input_Welcome to Oaktree_password'), 'rEXBpEkj5ITeVrsAMSY1Rw==')
 
 WebUI.click(findTestObject('Master/Master_Driver/Page_Login Panel/a_Login'))
 
+WebUI.focus(findTestObject('Master/Master_Driver/Page_Dashboard - Kelas Karyawan/a_Master'))
+
 WebUI.click(findTestObject('Master/Master_Driver/Page_Dashboard - Kelas Karyawan/a_Master'))
+
+WebUI.focus(findTestObject('Master/Master_Driver/Page_Dashboard - Kelas Karyawan/a_Driver'))
 
 WebUI.click(findTestObject('Master/Master_Driver/Page_Dashboard - Kelas Karyawan/a_Driver'))
 

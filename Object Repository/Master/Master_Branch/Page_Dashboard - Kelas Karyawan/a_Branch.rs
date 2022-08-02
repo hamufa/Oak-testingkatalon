@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[2]/aside/div/div[1]/nav/ul/li[3]/ul/li[4]/a</value>
+         <value>/html/body/div[2]/aside/div/div[1]/nav/ul/li[4]/ul/li[4]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>b94a0e53-34a5-467b-a4b8-ddc760870ad7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>waves-effect waves-dark</value>
+      <webElementGuid>6be06b22-8f09-4fbf-9552-cbff3c30a727</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://dummy.oaktree.id/admin/master_branch</value>
+      <webElementGuid>26fbf3ce-fd22-40df-a052-8147b9fbb08a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>0a01d6f1-6af5-4c53-920a-f67eb02b6c19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,6 +59,7 @@
 											
 											Branch
 										</value>
+      <webElementGuid>88567312-d333-4707-8686-0d8cab6e0068</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,6 +67,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarnav&quot;)/li[@class=&quot;active&quot;]/ul[@class=&quot;collapse in&quot;]/li[4]/a[@class=&quot;waves-effect waves-dark&quot;]</value>
+      <webElementGuid>84055235-0ef9-4ad4-b574-3afb05c2b3cc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,6 +75,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='sidebarnav']/li[3]/ul/li[4]/a</value>
+      <webElementGuid>bad162fa-169c-42a9-a609-21c296cb21ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -76,6 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Auto Number'])[1]/following::a[1]</value>
+      <webElementGuid>cce6896b-6e89-4d37-b4a3-5d80024780ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,6 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Airlines'])[1]/following::a[2]</value>
+      <webElementGuid>dd66dca1-2d2a-48e6-8840-2addcac51e10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,6 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Currency'])[1]/preceding::a[1]</value>
+      <webElementGuid>0f14f60d-3284-4816-a99f-4e331e21e400</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,6 +107,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://dummy.oaktree.id/admin/master_branch')]</value>
+      <webElementGuid>82f298c4-2cfb-459a-b125-a9bd7375a3b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,5 +115,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/ul/li[4]/a</value>
+      <webElementGuid>348cb68a-c571-4603-9936-7743125f1830</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

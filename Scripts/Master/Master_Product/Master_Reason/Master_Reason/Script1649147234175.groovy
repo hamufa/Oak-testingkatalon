@@ -28,6 +28,8 @@ WebUI.click(findTestObject('Master/Master_Reason/Page_Login Panel/a_Login'))
 
 WebUI.click(findTestObject('Master/Master_Reason/Page_Dashboard - Kelas Karyawan/a_Master'))
 
+WebUI.click(findTestObject('Master/Master_Reason/Page_Dashboard - Kelas Karyawan/a_Master'))
+
 WebUI.focus(findTestObject('Master/Master_Reason/Page_Dashboard - Kelas Karyawan/a_Reason'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Master/Master_Reason/Page_Dashboard - Kelas Karyawan/a_Reason'))
@@ -78,7 +80,7 @@ WebUI.click(findTestObject('Master/Master_Reason/Page_Master Reason - Kelas Kary
 
 WebUI.click(findTestObject('Master/Master_Reason/Page_Master Reason - Kelas Karyawan/button_tidak bisa Delete po yang belum di a_ac5763'))
 
-WebUI.click(findTestObject('Master/Master_Reason/Page_Master Reason - Kelas Karyawan/button_Yes, delete it'))
+WebUI.click(findTestObject('Master/Master_Reason/Page_Master Reason - Kelas Karyawan/oke delete'))
 
 WebUI.delay(2)
 

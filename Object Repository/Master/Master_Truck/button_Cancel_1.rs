@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[5]/div[7]/button</value>
+         <value>/html/body/div[6]/div[7]/button
+</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>b44f02ed-e3af-4432-bae0-577eda525599</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>cancel</value>
+      <webElementGuid>ed1224e3-372d-409b-98ef-e2cba4ac5424</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +39,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>2</value>
+      <webElementGuid>2fdd5900-8b29-411d-bf64-a932b109cef0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cancel</value>
+      <webElementGuid>38cb7e23-38e9-4b02-9ebe-9c333f0c03b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;fix-header fix-sidebar card-no-border modal-open stop-scrolling&quot;]/div[@class=&quot;sweet-alert showSweetAlert visible&quot;]/div[@class=&quot;sa-button-container&quot;]/button[@class=&quot;cancel&quot;]</value>
+      <webElementGuid>d67d7049-de38-4b99-a16c-4f7d7d5a2a8f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='!'])[1]/following::button[1]</value>
+      <webElementGuid>5f5f5733-3991-4c24-a598-e07ba105b381</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure want to close this window?'])[1]/following::button[1]</value>
+      <webElementGuid>a8d47003-f53c-4867-b1be-9c7c786f383e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes, close it!'])[1]/preceding::button[1]</value>
+      <webElementGuid>82c0ee61-ed8a-4237-b4b0-319131aa0fee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,5 +87,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/button</value>
+      <webElementGuid>d6555e13-1636-4381-be13-6a6b3c0e4537</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

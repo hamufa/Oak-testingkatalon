@@ -6,11 +6,11 @@
    <elementGuidId>aaa320ab-6c40-4bc8-8e10-84299613028e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/aside/div/div[1]/nav/ul/li[4]/ul/li[15]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[2]/aside/div/div[1]/nav/ul/li[3]/ul/li[15]/a</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>968b1048-fa2d-42da-9ca6-f13287655925</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>waves-effect waves-dark</value>
+      <webElementGuid>fb403207-3453-42a7-bac6-222b60ef5a2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://dummy.oaktree.id/admin/master_vendor</value>
+      <webElementGuid>27dca24c-204b-4bf3-b6ca-4c10b1f2a0d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>f7cba873-9c8e-4873-a93f-8068fb0eae88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,6 +57,7 @@
 												
 											
 											Vendor</value>
+      <webElementGuid>b8f7d7f9-1d7d-4b4a-8480-76af0a0deaee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,6 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarnav&quot;)/li[@class=&quot;active&quot;]/ul[@class=&quot;collapse in&quot;]/li[15]/a[@class=&quot;waves-effect waves-dark&quot;]</value>
+      <webElementGuid>0bcd7e57-1ce3-4ff3-8e7a-a4138277dd44</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -67,6 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='sidebarnav']/li[3]/ul/li[15]/a</value>
+      <webElementGuid>1cb5553b-e966-4ebe-bad7-32263658c815</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,6 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Truck'])[1]/following::a[1]</value>
+      <webElementGuid>22aaea01-9d5c-43cf-82eb-a038dbd2b0c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Term'])[1]/following::a[2]</value>
+      <webElementGuid>77369b68-4128-454e-bb4f-e2c392232169</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,6 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Warehouse'])[1]/preceding::a[1]</value>
+      <webElementGuid>201ac954-ed38-4a9e-8a96-ace660dd47e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +105,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://dummy.oaktree.id/admin/master_vendor')]</value>
+      <webElementGuid>211ba6d9-6efc-4a24-b9a1-4bbd1fa5c34e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,5 +113,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[15]/a</value>
+      <webElementGuid>14f3d547-7bb7-43f8-9e7f-6c961855f13c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

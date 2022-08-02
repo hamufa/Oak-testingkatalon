@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_month_1</name>
+   <tag></tag>
+   <elementGuidId>7e0d1f05-0040-4851-b95d-18084bb30031</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='custom-tags']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.alert-info.custom-alert.removeclass0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a3455720-ff05-48d9-8f33-52586b5b619b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>alert-info custom-alert removeclass0</value>
+      <webElementGuid>b26f271d-15b6-45a6-9522-1b039e09189c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>month × </value>
+      <webElementGuid>6e9aab0c-8d27-45c1-a855-d6f774bdd4e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;custom-tags&quot;)/div[@class=&quot;alert-info custom-alert removeclass0&quot;]</value>
+      <webElementGuid>a0ca68da-1561-4211-8d2e-23c28c43eca0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='custom-tags']/div</value>
+      <webElementGuid>99f01f34-f86a-419b-97d1-187e7f26e776</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sequence'])[2]/following::div[8]</value>
+      <webElementGuid>5bd4c017-18c4-4c34-bb4b-49c41833fa1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[14]/following::div[8]</value>
+      <webElementGuid>24e72467-0f2e-4306-af10-be681b3154a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='please select sequence component for auto numbering'])[1]/preceding::div[1]</value>
+      <webElementGuid>2f61455a-a505-45a2-9625-b69344f0939b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Numbering Example'])[1]/preceding::div[2]</value>
+      <webElementGuid>19acc868-04c0-4513-aba1-2e81f73ff360</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='month']/parent::*</value>
+      <webElementGuid>90ceef3a-762f-4648-9a61-5941e40886ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[3]/div/div/div</value>
+      <webElementGuid>adf48cf8-e9a3-41ad-864c-dcc0e0d93954</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'month × ' or . = 'month × ')]</value>
+      <webElementGuid>d54e7f11-9309-4420-b908-b1c092113729</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

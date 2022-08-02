@@ -6,12 +6,16 @@
    <elementGuidId>0d60aa23-8f5c-4937-9f34-01ab0a618bcf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//form[@id='party_form']/div/div/div[2]/span/span/span/span[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.select2-selection__arrow</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;party_form&quot;)/div[@class=&quot;form-body&quot;]/div[@class=&quot;col-lg-12 row&quot;]/div[@class=&quot;col-lg-3&quot;]/span[@class=&quot;select2 select2-container select2-container--default select2-container--below select2-container--open&quot;]/span[@class=&quot;selection&quot;]/span[@class=&quot;select2-selection select2-selection--single&quot;]/span[@class=&quot;select2-selection__arrow&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='party_form']/div/div/div[2]/span/span/span/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>7b738210-2e39-41f9-b1fc-04f676990e5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>select2-selection__arrow</value>
+      <webElementGuid>1888f98e-849e-46bc-831a-e7594a315ce5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
+      <webElementGuid>6689e90b-cf71-4a24-896f-7694f6189d79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;party_form&quot;)/div[@class=&quot;form-body&quot;]/div[@class=&quot;col-lg-12 row&quot;]/div[@class=&quot;col-lg-3&quot;]/span[@class=&quot;select2 select2-container select2-container--default select2-container--below select2-container--open&quot;]/span[@class=&quot;selection&quot;]/span[@class=&quot;select2-selection select2-selection--single&quot;]/span[@class=&quot;select2-selection__arrow&quot;]</value>
+      <webElementGuid>483ae75d-d569-4551-832d-2c28951a3f1f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='party_form']/div/div/div[2]/span/span/span/span[2]</value>
+      <webElementGuid>a4329efb-6fd3-4396-b14a-174f9ff833bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='From Branch'])[2]/following::span[5]</value>
+      <webElementGuid>8765839b-3b85-4406-b6d8-3c5f62ee24fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Modules'])[1]/following::span[5]</value>
+      <webElementGuid>e0e6f07c-6997-4802-bae3-2615466c0e4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy Branch'])[2]/preceding::span[2]</value>
+      <webElementGuid>b8010f18-1035-4889-81c6-584fd3cb6437</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Party'])[1]/preceding::span[8]</value>
+      <webElementGuid>bf2634ec-ef38-4b3c-80ba-9d900eb96953</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +98,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/span/span[2]</value>
+      <webElementGuid>2ac92d0a-7834-4d5f-bdd5-7d2078d4649b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

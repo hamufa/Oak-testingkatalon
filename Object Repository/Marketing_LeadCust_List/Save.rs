@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@value='Save']</value>
+         <value>//*[@id=&quot;wrapper&quot;]/div[3]/div/div/div/div/div/div/div/div[3]/div[2]/div/div/div/div/form/div/div[9]/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>30d21dba-adcf-46de-a45c-10eae104b489</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
+      <webElementGuid>2f9ff0cc-d44c-4c2a-a3a7-236cbd2fa517</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Save</value>
+      <webElementGuid>27e8e41d-41f9-445b-8017-70560d237f01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-create mr-1 btn-sm</value>
+      <webElementGuid>c2a4bdc5-a743-4ebc-9e0a-421651688d77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,26 +54,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;wrapper&quot;)/div[@class=&quot;content-page&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card new-card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;velmld-parent&quot;]/div[@class=&quot;vm--container&quot;]/div[@class=&quot;vm--modal&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;form-row mt-3&quot;]/div[@class=&quot;col-md-12 mt-1&quot;]/div[@class=&quot;float-right&quot;]/input[@class=&quot;btn btn-create mr-1 btn-sm&quot;]</value>
+      <webElementGuid>dc3b5313-179d-4670-a531-6fb6f9a95a29</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@value='Save']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='wrapper']/div[3]/div/div/div/div/div/div/div/div[3]/div[2]/div/div/div/div/form/div/div[9]/div/input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[9]/div/input</value>
-   </webElementXpaths>
 </WebElementEntity>

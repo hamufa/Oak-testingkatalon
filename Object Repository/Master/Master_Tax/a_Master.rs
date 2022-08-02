@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='sidebarnav']/li[3]/a</value>
+         <value>//ul[@id='sidebarnav']/li[4]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>4499bca6-2611-4438-9f36-7fef8e46de87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>has-arrow waves-effect waves-dark</value>
+      <webElementGuid>36f86c46-4488-4696-9c2d-0b33ebd7a2fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>0d7f74b4-a72f-40ea-8be2-4e8528e140e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>814c8b25-ed12-4dec-a2f2-18aa62616015</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,6 +57,7 @@
 									
 								
 								Master</value>
+      <webElementGuid>194b45ce-08d9-47e8-bdd4-a63313989fc8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,6 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarnav&quot;)/li[3]/a[@class=&quot;has-arrow waves-effect waves-dark&quot;]</value>
+      <webElementGuid>c29c4b14-ef0d-408b-8ec2-7d485c37792c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -67,6 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='sidebarnav']/li[3]/a</value>
+      <webElementGuid>f3642509-a515-4aa7-aa5d-c49eeb96b5ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,6 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft Transaction'])[1]/following::a[1]</value>
+      <webElementGuid>f850cd59-b3b3-4e2c-8e99-b006d1c61b5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Activity Log'])[1]/following::a[2]</value>
+      <webElementGuid>cc67906c-2dc3-4976-9048-7f9d77fb0403</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,6 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Agent'])[1]/preceding::a[1]</value>
+      <webElementGuid>e1774b42-b570-4104-8124-96d46e5d8b9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +105,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[6]</value>
+      <webElementGuid>d017a561-ffb3-48b8-ad9a-c6074fbdbbfa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,5 +113,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//nav/ul/li[3]/a</value>
+      <webElementGuid>94a40305-2c80-4b71-a1ba-8c26e72e7afd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

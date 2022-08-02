@@ -22,19 +22,21 @@ WebUI.navigateToUrl('https://dummy.oaktree.id/admin')
 
 WebUI.setText(findTestObject('Master/Master_Driver/Page_Login Panel/input_Welcome to Oaktree_email_user'), 'Cricket@rimbahouse.com')
 
-WebUI.setEncryptedText(findTestObject('Master/Master_Driver/Page_Login Panel/input_Welcome to Oaktree_password'), 
-    'rEXBpEkj5ITeVrsAMSY1Rw==')
+WebUI.setEncryptedText(findTestObject('Master/Master_Driver/Page_Login Panel/input_Welcome to Oaktree_password'), 'rEXBpEkj5ITeVrsAMSY1Rw==')
 
 WebUI.click(findTestObject('Master/Master_Driver/Page_Login Panel/a_Login'))
 
+WebUI.focus(findTestObject('Master/Master_Driver/Page_Dashboard - Kelas Karyawan/a_Master'))
+
 WebUI.click(findTestObject('Master/Master_Driver/Page_Dashboard - Kelas Karyawan/a_Master'))
+
+WebUI.focus(findTestObject('Master/Master_Driver/Page_Dashboard - Kelas Karyawan/a_Driver'))
 
 WebUI.click(findTestObject('Master/Master_Driver/Page_Dashboard - Kelas Karyawan/a_Driver'))
 
 WebUI.click(findTestObject('Master/Master_Driver/Page_Master Driver - Kelas Karyawan/button_Available_btn btn-action mr-1'))
 
-WebUI.setText(findTestObject('Master/Master_Driver/Page_Master Driver - Kelas Karyawan/input__driver_license_exp'), 
-    '07-07-2023')
+WebUI.setText(findTestObject('Master/Master_Driver/Page_Master Driver - Kelas Karyawan/input__driver_license_exp'), '07-07-2023')
 
 WebUI.sendKeys(findTestObject('Master/Master_Driver/Page_Master Driver - Kelas Karyawan/input__driver_license_exp'), Keys.chord(
         Keys.ENTER, Keys.ENTER))
@@ -53,8 +55,7 @@ WebUI.setText(findTestObject('Master/Master_Driver/Page_Master Driver - Kelas Ka
 
 WebUI.click(findTestObject('Master/Master_Driver/Page_Master Driver - Kelas Karyawan/div_Edit DriverName  Phone  Address  Driver_bcfedc'))
 
-WebUI.setText(findTestObject('Master/Master_Driver/Page_Master Driver - Kelas Karyawan/input__driver_license_no'), 
-    '444')
+WebUI.setText(findTestObject('Master/Master_Driver/Page_Master Driver - Kelas Karyawan/input__driver_license_no'), '444')
 
 WebUI.click(findTestObject('Master/Master_Driver/Page_Master Driver - Kelas Karyawan/div_Edit DriverName  Phone  Address  Driver_bcfedc'))
 
@@ -62,8 +63,7 @@ WebUI.setText(findTestObject('Master/Master_Driver/Page_Master Driver - Kelas Ka
 
 WebUI.click(findTestObject('Master/Master_Driver/Page_Master Driver - Kelas Karyawan/div_Edit DriverName  Phone  Address  Driver_bcfedc'))
 
-WebUI.setText(findTestObject('Master/Master_Driver/Page_Master Driver - Kelas Karyawan/textarea_Remarks_remarks'), 
-    '444')
+WebUI.setText(findTestObject('Master/Master_Driver/Page_Master Driver - Kelas Karyawan/textarea_Remarks_remarks'), '444')
 
 WebUI.click(findTestObject('Master/Master_Driver/Page_Master Driver - Kelas Karyawan/label_This driver is available'))
 

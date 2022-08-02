@@ -15,191 +15,189 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dummy.oaktree.id/admin')
+WebUI.navigateToUrl('https://dummy.oaktree.id/admin/admin')
 
-WebUI.setText(findTestObject('Object Repository/Report_Logistic/input_Welcome to Oaktree_email_user'), 'Cricket@rimbahouse.com')
+WebUI.setText(findTestObject('Object Repository/Report Logistic Repo/input_Welcome to Oaktree_email_user'), 'Cricket@rimbahouse.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Report_Logistic/input_Welcome to Oaktree_password'), 'rEXBpEkj5ITeVrsAMSY1Rw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Report Logistic Repo/input_Welcome to Oaktree_password'), 'rEXBpEkj5ITeVrsAMSY1Rw==')
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/a_Login'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/a_Login'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/a_Report'))
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/a_Logistic'))
+WebUI.focus(findTestObject('Object Repository/Report Logistic Repo/a_Report'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/span_All'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/a_Report'))
 
-WebUI.setText(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), 'All')
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/a_Logistic'))
 
-WebUI.sendKeys(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), Keys.chord(Keys.ARROW_DOWN, 
-        Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/span_All'))
 
-WebUI.setText(findTestObject('Object Repository/Report_Logistic/input_Branch_select2-search__field'), 'HEAD OFFICE')
+WebUI.setText(findTestObject('Object Repository/Report Logistic Repo/input_Close_select2-search__field'), 'ALL')
 
-WebUI.sendKeys(findTestObject('Object Repository/Report_Logistic/input_Branch_select2-search__field'), Keys.chord(Keys.ARROW_DOWN, 
-        Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/Report Logistic Repo/input_Close_select2-search__field'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/span_Logistic'))
+WebUI.setText(findTestObject('Object Repository/Report Logistic Repo/input_Branch_select2-search__field'), 'HEAD OFFICE')
 
-WebUI.setText(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), 'Accounting')
+WebUI.sendKeys(findTestObject('Object Repository/Report Logistic Repo/input_Branch_select2-search__field'), Keys.chord(Keys.ENTER))
 
-WebUI.sendKeys(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), Keys.chord(Keys.ARROW_DOWN, 
-        Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/span_Logistic'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/span_Custom_select2-selection__arrow'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/span_Logistic'))
 
-WebUI.setText(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), 'Custom')
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/span_Custom'))
 
-WebUI.sendKeys(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), Keys.chord(Keys.ARROW_DOWN, 
-        Keys.ENTER))
+WebUI.setText(findTestObject('Object Repository/Report Logistic Repo/input_Close_select2-search__field'), 'Custom')
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/input_Start Date_start_date'))
+WebUI.sendKeys(findTestObject('Object Repository/Report Logistic Repo/input_Close_select2-search__field'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/th_'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/input_Start Date_start_date'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/td_1'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/th_July 2022'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/input_End Date_end_date'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/span_Jul'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/td_14'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/td_1'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/button_Preview'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/input_End Date_end_date'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/a_Filter'))
+WebUI.click(findTestObject('Report Logistic Repo/Nextttt'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/button_Preview'))
+WebUI.click(findTestObject('Report Logistic Repo/td_1 - Copy'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/a_Export to Excel'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/button_Preview'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/span_All'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/a_Filter'))
 
-WebUI.setText(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), 'Export')
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/button_Preview'))
 
-WebUI.sendKeys(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), Keys.chord(Keys.ARROW_DOWN, 
-        Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/a_Export to Excel'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/ul_HEAD OFFICE'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/a_JKT-F2110.0402-O'))
 
-WebUI.setText(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), 'Surabaya')
+WebUI.verifyElementText(findTestObject('Object Repository/Report Logistic Repo/h4_JKT-F2110.0402-O'), 'JKT-F/22/10.0129')
 
-WebUI.sendKeys(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), Keys.chord(Keys.ARROW_DOWN, 
-        Keys.ENTER))
+WebUI.focus(findTestObject('Object Repository/Report Logistic Repo/button_Close'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/span_Accounting'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/button_Close'))
 
-WebUI.setText(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), 'Logistic')
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/a_PT PUIM'))
 
-WebUI.sendKeys(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), Keys.chord(Keys.ARROW_DOWN, 
-        Keys.ENTER))
+WebUI.verifyElementText(findTestObject('Object Repository/Report Logistic Repo/p_Customer Detail'), 'Customer Detail')
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/span_Custom_select2-selection__arrow'))
+WebUI.focus(findTestObject('Report Logistic Repo/button_Close - Copy'))
 
-WebUI.setText(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), 'Monthly')
+WebUI.click(findTestObject('Report Logistic Repo/button_Close - Copy'))
 
-WebUI.sendKeys(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), Keys.chord(Keys.ARROW_DOWN, 
-        Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/span_All'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/span_January'))
+WebUI.setText(findTestObject('Object Repository/Report Logistic Repo/input_Close_select2-search__field'), 'Import')
 
-WebUI.setText(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), 'February')
+WebUI.sendKeys(findTestObject('Object Repository/Report Logistic Repo/input_Close_select2-search__field'), Keys.chord(Keys.ENTER))
 
-WebUI.sendKeys(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), Keys.chord(Keys.ARROW_DOWN, 
-        Keys.ENTER))
+WebUI.setText(findTestObject('Object Repository/Report Logistic Repo/input_Branch_select2-search__field'), 'SURABAYA')
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/input_Year_chart_year'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/span_Logistic'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/li_2022'))
+WebUI.setText(findTestObject('Object Repository/Report Logistic Repo/input_Close_select2-search__field'), 'Accounting')
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/button_Preview'))
+WebUI.sendKeys(findTestObject('Object Repository/Report Logistic Repo/input_Close_select2-search__field'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/a_Filter'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/span_Custom'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/span_Export'))
+WebUI.setText(findTestObject('Object Repository/Report Logistic Repo/input_Close_select2-search__field'), 'Monthly')
 
-WebUI.setText(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), 'Import')
+WebUI.sendKeys(findTestObject('Object Repository/Report Logistic Repo/input_Close_select2-search__field'), Keys.chord(Keys.ENTER))
 
-WebUI.sendKeys(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), Keys.chord(Keys.ARROW_DOWN, 
-        Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/span_January'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/ul_HEAD OFFICESURABAYA'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/input_Year_chart_year'))
 
-WebUI.setText(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), 'Logistic')
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/li_2021'))
 
-WebUI.sendKeys(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), Keys.chord(Keys.ARROW_DOWN, 
-        Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/button_Preview'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/span_Logistic'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/a_Filter'))
 
-WebUI.setText(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), 'Accounting')
+WebUI.verifyElementVisible(findTestObject('Object Repository/Report Logistic Repo/td_No data available in table'))
 
-WebUI.sendKeys(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), Keys.chord(Keys.ARROW_DOWN, 
-        Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/span_Import'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/button_Preview'))
+WebUI.setText(findTestObject('Object Repository/Report Logistic Repo/input_Close_select2-search__field'), 'All')
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/a_Filter'))
+WebUI.sendKeys(findTestObject('Object Repository/Report Logistic Repo/input_Close_select2-search__field'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/span_Import'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/span_Accounting'))
 
-WebUI.setText(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), 'Domestic')
+WebUI.setText(findTestObject('Object Repository/Report Logistic Repo/input_Close_select2-search__field'), 'Logistic')
 
-WebUI.sendKeys(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), Keys.chord(Keys.ARROW_DOWN, 
-        Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/Report Logistic Repo/input_Close_select2-search__field'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/ul_HEAD OFFICESURABAYA'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/span_September'))
 
-WebUI.setText(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), 'Jakarta')
+WebUI.setText(findTestObject('Object Repository/Report Logistic Repo/input_Close_select2-search__field'), 'November')
 
-WebUI.sendKeys(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), Keys.chord(Keys.ARROW_DOWN, 
-        Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/Report Logistic Repo/input_Close_select2-search__field'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/span_Accounting'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/button_Preview'))
 
-WebUI.setText(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), 'Logistic')
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/a_Filter'))
 
-WebUI.sendKeys(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), Keys.chord(Keys.ARROW_DOWN, 
-        Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/span_Monthly'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/span_Custom_select2-selection__arrow'))
+WebUI.setText(findTestObject('Object Repository/Report Logistic Repo/input_Close_select2-search__field'), 'Custom')
 
-WebUI.setText(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), 'Custom')
+WebUI.sendKeys(findTestObject('Object Repository/Report Logistic Repo/input_Close_select2-search__field'), Keys.chord(Keys.ENTER))
 
-WebUI.sendKeys(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), Keys.chord(Keys.ARROW_DOWN, 
-        Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/input_Start Date_start_date'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/input_Start Date_start_date'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/th_'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/th_March 2022'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/td_1'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/th_2022'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/input_End Date_end_date'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/span_2021'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/th__1'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/span_Aug'))
+WebUI.click(findTestObject('Report Logistic Repo/th__1 - Copy'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/td_6'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/td_1'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/input_End Date_end_date'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/button_Preview'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/td_13'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/a_Filter'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/button_Preview'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/a_2'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/a_Filter'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/a_Previous'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/span_Logistic'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/a_Next'))
 
-WebUI.setText(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), 'Accounting')
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/button_Preview'))
 
-WebUI.sendKeys(findTestObject('Object Repository/Report_Logistic/input_Close_select2-search__field'), Keys.chord(Keys.ARROW_DOWN, 
-        Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/a_Export to Excel'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/button_Preview'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/span_All_1'))
 
-WebUI.click(findTestObject('Object Repository/Report_Logistic/a_Filter'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/button_Preview'))
+
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/a_Filter'))
+
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/th_No Plat'))
+
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/th_Jobfie'))
+
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/th_Customer'))
+
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/th_Selling Date'))
+
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/button_Preview'))
+
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/a_Export to Excel'))
 
 WebUI.closeBrowser()
 

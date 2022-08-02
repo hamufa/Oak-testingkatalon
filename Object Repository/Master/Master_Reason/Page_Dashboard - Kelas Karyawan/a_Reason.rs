@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[2]/aside/div/div[1]/nav/ul/li[3]/ul/li[11]/a</value>
+         <value>/html/body/div[2]/aside/div/div[1]/nav/ul/li[4]/ul/li[11]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>57e647fb-7d47-42cb-b4a6-4bb3d83cae69</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>waves-effect waves-dark</value>
+      <webElementGuid>f6be5cea-12ac-49dc-9a85-90748cbc4489</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://dummy.oaktree.id/admin/master_reason</value>
+      <webElementGuid>e04294db-81bc-4ac4-a214-697a8224609d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>88ed6f26-0a23-42dc-a739-3841ddd7e60b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,6 +57,7 @@
 												
 											
 											Reason</value>
+      <webElementGuid>ef306486-dd43-46d1-b98f-d77e8a83cf75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,6 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarnav&quot;)/li[@class=&quot;active&quot;]/ul[@class=&quot;collapse in&quot;]/li[11]/a[@class=&quot;waves-effect waves-dark&quot;]</value>
+      <webElementGuid>e7cd59ab-aae5-463e-b548-9705d1d449fc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -67,6 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='sidebarnav']/li[3]/ul/li[11]/a</value>
+      <webElementGuid>5eda4919-0d6c-413d-a2eb-e7381b22c71c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,6 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Port'])[1]/following::a[1]</value>
+      <webElementGuid>3fc66ba9-f16f-4dac-84f3-1be177de14a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Item'])[1]/following::a[2]</value>
+      <webElementGuid>cc8475ef-b396-4d2b-80eb-9d1b6326c0f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,6 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Shipping'])[1]/preceding::a[1]</value>
+      <webElementGuid>f04cb7c2-fc8f-402e-9dde-25cbad5c30c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +105,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://dummy.oaktree.id/admin/master_reason')]</value>
+      <webElementGuid>8267a68f-912b-4812-9336-bed8cbbd98a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,5 +113,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[11]/a</value>
+      <webElementGuid>e41bb561-d4c4-42b2-ac92-e06bf576d2f2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

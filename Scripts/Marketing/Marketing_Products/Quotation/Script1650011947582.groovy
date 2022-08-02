@@ -99,7 +99,7 @@ WebUI.setText(findTestObject('Marketing_Quotation/input__form-control form-contr
 
 WebUI.selectOptionByValue(findTestObject('Marketing_Quotation/select_CASH ON HAND3'), '561', true)
 
-WebUI.selectOptionByValue(findTestObject('Marketing_Quotation/select_IDR JPY GBP MYR3'), '6', true)
+WebUI.selectOptionByValue(findTestObject('Marketing_Quotation/select_IDR JPY GBP MYR3'), '0', true)
 
 WebUI.setText(findTestObject('Marketing_Quotation/input_Price_form-control form-control-sm3'), '2323')
 
@@ -109,7 +109,7 @@ WebUI.click(findTestObject('Marketing_Quotation/a_Remark_btn btn-create btn-sm2'
 
 WebUI.selectOptionByValue(findTestObject('Marketing_Quotation/select_CASH ON HAND4'), '544', true)
 
-WebUI.selectOptionByValue(findTestObject('Marketing_Quotation/select_IDR JPY GBP MYR4'), '9', true)
+WebUI.selectOptionByValue(findTestObject('Marketing_Quotation/select_IDR JPY GBP MYR4'), '0', true)
 
 WebUI.setText(findTestObject('Marketing_Quotation/input_Price_form-control form-control-sm_4'), '44444')
 
@@ -190,7 +190,7 @@ WebUI.setText(findTestObject('Object Repository/Marketing_Quotation/input_Remark
 
 WebUI.selectOptionByValue(findTestObject('Marketing_Quotation/select_CASH ON HAND2'), '475', true)
 
-WebUI.selectOptionByValue(findTestObject('Marketing_Quotation/select_IDR JPY GBP MYR_2'), '9', true)
+WebUI.selectOptionByValue(findTestObject('Marketing_Quotation/select_IDR JPY GBP MYR_2'), '2', true)
 
 WebUI.setText(findTestObject('Marketing_Quotation/input_Price_form-control form-control-sm_2'), '3333333')
 

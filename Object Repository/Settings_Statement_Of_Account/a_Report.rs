@@ -6,12 +6,11 @@
    <elementGuidId>589487b0-b783-484e-9e11-43d80b34983f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//ul[@id='sidebarnav']/li[5]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//ul[@id='sidebarnav']/li[4]/a</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>41332962-4b85-4faf-8a51-266468ba7e3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>has-arrow waves-effect waves-dark</value>
+      <webElementGuid>bd38c8d6-5d0e-40ad-9cba-a2d28c2603ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>0a4701b3-ba36-4434-9707-f9e736e82a65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>b39a3d89-d5c4-4c29-a073-10594227137a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -52,6 +55,7 @@
       <value>
 								
 								Report</value>
+      <webElementGuid>40a9445c-22ee-4632-a4f0-d97eaa4129ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,6 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarnav&quot;)/li[4]/a[@class=&quot;has-arrow waves-effect waves-dark&quot;]</value>
+      <webElementGuid>c988ef55-6cd9-4c24-94a6-cff7874a434d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,6 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='sidebarnav']/li[4]/a</value>
+      <webElementGuid>7b0cf6b1-b15b-4df7-bf89-d4de7be423bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,6 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Master Tax'])[1]/following::a[1]</value>
+      <webElementGuid>295b2cff-ce08-405a-818e-d4b1c1b3bdeb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,6 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PPJK'])[1]/following::a[2]</value>
+      <webElementGuid>8bc607d6-476f-41a5-a899-dfec24063f0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Project'])[1]/preceding::a[1]</value>
+      <webElementGuid>be095962-cc99-463c-a63d-82db753ccc04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +103,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[7]</value>
+      <webElementGuid>ce6aeef7-6b54-42bf-85d6-b041e2b4a22b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,5 +111,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//nav/ul/li[4]/a</value>
+      <webElementGuid>1e387012-1e0d-4514-ae32-91cb547b7522</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

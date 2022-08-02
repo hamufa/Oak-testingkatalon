@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;sidebarnav&quot;]/li[3]/ul/li[14]/a</value>
+         <value>/html/body/div[2]/aside/div/div[1]/nav/ul/li[4]/ul/li[14]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>d25d7444-b56e-4974-96ba-1132d5d47c49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>waves-effect waves-dark</value>
+      <webElementGuid>2a000d8a-6501-4fb8-8151-d5d782260d24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://dummy.oaktree.id/admin/master_truck</value>
+      <webElementGuid>bd938e47-23b1-4411-a3ad-8481a4ba1988</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>1251bef4-b3ad-4e33-b9fd-d0cc4e8be9f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,6 +57,7 @@
 												
 											
 											Truck</value>
+      <webElementGuid>158121d8-53fa-4fe5-aff5-e53f49099960</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,6 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarnav&quot;)/li[@class=&quot;active&quot;]/ul[@class=&quot;collapse in&quot;]/li[14]/a[@class=&quot;waves-effect waves-dark&quot;]</value>
+      <webElementGuid>421c72b6-955a-4a1c-8039-0a6c6888b35b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -67,6 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='sidebarnav']/li[3]/ul/li[14]/a</value>
+      <webElementGuid>18e9c530-ef8c-4d22-a12c-b7af47fde29f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,6 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Term'])[1]/following::a[1]</value>
+      <webElementGuid>33ee3ffb-22eb-4774-99ac-d32268877c9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Shipping'])[1]/following::a[2]</value>
+      <webElementGuid>9508f5f6-895e-46b4-a869-59dce6ee6a7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,6 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Vendor'])[1]/preceding::a[1]</value>
+      <webElementGuid>83fdc27b-7561-4b7d-ae1c-7a0d9d619c8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +105,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://dummy.oaktree.id/admin/master_truck')]</value>
+      <webElementGuid>4d3ea3ba-0ad3-4151-ac17-3198d5ab9985</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,5 +113,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[14]/a</value>
+      <webElementGuid>dbba5408-dee2-40ef-93b4-f3f654058cda</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

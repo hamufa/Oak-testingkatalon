@@ -6,15 +6,14 @@
    <elementGuidId>a18bcbfd-361c-4a9f-9a39-caef3cb3dd01</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;sidebarnav&quot;]/li[6]/ul/li[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;sidebarnav&quot;]/li[9]/ul/li[2]/a</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

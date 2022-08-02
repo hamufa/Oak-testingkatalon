@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -27,6 +28,8 @@ WebUI.setText(findTestObject('Object Repository/Setting_DefaultParty/input_Welco
 WebUI.setEncryptedText(findTestObject('Object Repository/Setting_DefaultParty/input_Welcome to Oaktree_password'), 'rEXBpEkj5ITeVrsAMSY1Rw==')
 
 WebUI.click(findTestObject('Object Repository/Setting_DefaultParty/a_Login'))
+
+WebUI.focus(findTestObject('Setting_DefaultParty/a_Setting'))
 
 WebUI.click(findTestObject('Object Repository/Setting_DefaultParty/a_Setting'))
 
@@ -74,11 +77,9 @@ WebUI.click(findTestObject('Object Repository/Setting_DefaultParty/button_Cancel
 
 WebUI.click(findTestObject('Object Repository/Setting_DefaultParty/button_Yes, close it'))
 
-WebUI.waitForElementNotVisible(findTestObject('Object Repository/Setting_DefaultParty/button_Yes, close it'), 8)
-
 WebUI.click(findTestObject('Object Repository/Setting_DefaultParty/button_ADVANTIS FREIGHT (PVT) LIMITED_btn b_86a10a'))
 
-WebUI.click(findTestObject('Object Repository/Setting_DefaultParty/button_Cancel_1'))
+WebUI.click(findTestObject('Setting_DefaultParty/YES CANSEL IT DELETE'))
 
 WebUI.click(findTestObject('Object Repository/Setting_DefaultParty/button_ADVANTIS FREIGHT (PVT) LIMITED_btn b_86a10a'))
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@type='search']</value>
+         <value>//*[@id=&quot;table_filter&quot;]/label/input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>14927c06-ece2-4736-99f3-783224bc5be6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>search</value>
+      <webElementGuid>e9116afc-389f-453c-a9d5-815e472666c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>table</value>
+      <webElementGuid>f34edb88-2c98-488c-8d16-2f547a67bfff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;table_filter&quot;)/label[1]/input[1]</value>
+      <webElementGuid>a939bba9-4a50-4a2e-88d9-d446e7787688</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@type='search']</value>
+      <webElementGuid>5fa4cfa2-8370-4168-9a79-c8519542f2bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='table_filter']/label/input</value>
+      <webElementGuid>d34f4ff1-e678-4680-b214-492680c35ea8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,5 +70,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
+      <webElementGuid>289ed937-1bec-423c-9f85-b46059fcb4da</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

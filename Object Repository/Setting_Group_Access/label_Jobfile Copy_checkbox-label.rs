@@ -6,15 +6,18 @@
    <elementGuidId>319ca989-1c69-4432-acde-f7441eb4b538</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;group-tbody&quot;)/tr[3]/td[2]/label[@class=&quot;checkbox-label&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//tbody[@id='group-tbody']/tr[3]/td[2]/label</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
+      <webElementGuid>6bde00f6-302f-473b-9166-d3bd83ee4b01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>checkbox-label</value>
+      <webElementGuid>ec642a1b-3183-4e3a-9b0e-9f8116fc1879</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +41,7 @@
       <name>for</name>
       <type>Main</type>
       <value>ENABLE2</value>
+      <webElementGuid>a6ed9fc4-2e9f-4346-a07d-1c8b77d16780</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;group-tbody&quot;)/tr[3]/td[2]/label[@class=&quot;checkbox-label&quot;]</value>
+      <webElementGuid>10f7c623-53b6-4de3-92bf-855bf14d96ce</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='group-tbody']/tr[3]/td[2]/label</value>
+      <webElementGuid>1c30732e-1f7c-4dee-ac9e-b7a9e57e07df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,5 +65,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td[2]/label</value>
+      <webElementGuid>5e98010c-98ab-4715-b151-2b9d5d7dfa59</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

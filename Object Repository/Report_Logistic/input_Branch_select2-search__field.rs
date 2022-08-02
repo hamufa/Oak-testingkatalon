@@ -6,12 +6,16 @@
    <elementGuidId>061493fb-b260-4466-9081-2c6e59c3b283</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input.select2-search__field</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@type='search']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'search' and @placeholder = 'Select Multiple Branch']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.select2-search__field</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>82381fc0-1a53-405a-a553-425d711d494a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>select2-search__field</value>
+      <webElementGuid>2fe18f85-9730-43b1-882f-71266c04c424</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +42,7 @@
       <name>type</name>
       <type>Main</type>
       <value>search</value>
+      <webElementGuid>8e684936-5f0b-4908-bf65-14954e727a42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
+      <webElementGuid>94f37b19-df2d-4cdb-81f5-f168bf3bf0df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
+      <webElementGuid>7fa1fde6-99d6-4a1c-be1e-ee0f6800cdb3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>autocorrect</name>
       <type>Main</type>
       <value>off</value>
+      <webElementGuid>57b58032-b69d-437b-8b03-722d1516022c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>autocapitalize</name>
       <type>Main</type>
       <value>off</value>
+      <webElementGuid>be72280e-b85a-42d3-b268-e89eedfaaf50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>spellcheck</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>9aa511c7-b37b-4859-afec-2806144d8318</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>b2a799c7-9511-4bbd-bdbb-53b71f28b9ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>aria-autocomplete</name>
       <type>Main</type>
       <value>list</value>
+      <webElementGuid>88232356-8f01-4692-ab1e-fbbd0143bcfc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -92,6 +106,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Select Multiple Branch</value>
+      <webElementGuid>10b7a624-de59-461d-a93e-0c1ccd74cbf3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -99,6 +114,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form-filter&quot;)/div[@class=&quot;form-body row&quot;]/div[@class=&quot;col-md-10 pr-2&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4 pr-2&quot;]/span[@class=&quot;select2 select2-container select2-container--bootstrap select2-container--focus select2-container--below select2-container--open&quot;]/span[@class=&quot;selection&quot;]/span[@class=&quot;select2-selection select2-selection--multiple&quot;]/ul[@class=&quot;select2-selection__rendered&quot;]/li[@class=&quot;select2-search select2-search--inline&quot;]/input[@class=&quot;select2-search__field&quot;]</value>
+      <webElementGuid>f40382f8-c476-490d-a6f0-bfe8905ef099</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -106,6 +122,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@type='search']</value>
+      <webElementGuid>53258114-9bae-469f-8186-531e88da83b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +130,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='form-filter']/div/div/div/div[2]/span/span/span/ul/li/input</value>
+      <webElementGuid>340f0d30-ae21-479b-9e9f-c6b1f8c45634</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,5 +138,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
+      <webElementGuid>37450b09-4b49-4b45-adc6-e485af6c5fdc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

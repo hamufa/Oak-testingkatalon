@@ -22,12 +22,15 @@ WebUI.navigateToUrl('https://dummy.oaktree.id/admin')
 
 WebUI.setText(findTestObject('Master/Master_Port/Page_Login Panel/input_Welcome to Oaktree_email_user'), 'Cricket@rimbahouse.com')
 
-WebUI.setEncryptedText(findTestObject('Master/Master_Port/Page_Login Panel/input_Welcome to Oaktree_password'), 
-    'rEXBpEkj5ITeVrsAMSY1Rw==')
+WebUI.setEncryptedText(findTestObject('Master/Master_Port/Page_Login Panel/input_Welcome to Oaktree_password'), 'rEXBpEkj5ITeVrsAMSY1Rw==')
 
 WebUI.click(findTestObject('Master/Master_Port/Page_Login Panel/a_Login'))
 
+WebUI.focus(findTestObject('Master/Master_Port/Page_Dashboard - Kelas Karyawan/a_Master'))
+
 WebUI.click(findTestObject('Master/Master_Port/Page_Dashboard - Kelas Karyawan/a_Master'))
+
+WebUI.focus(findTestObject('Master/Master_Port/Page_Dashboard - Kelas Karyawan/a_Port'))
 
 WebUI.click(findTestObject('Master/Master_Port/Page_Dashboard - Kelas Karyawan/a_Port'))
 
@@ -35,13 +38,11 @@ WebUI.click(findTestObject('Master/Master_Port/Page_Master Port - Kelas Karyawan
 
 WebUI.setText(findTestObject('Master/Master_Port/Page_Master Port - Kelas Karyawan/input__name_port'), '2222')
 
-WebUI.setText(findTestObject('Master/Master_Port/Page_Master Port - Kelas Karyawan/textarea_Description_desc_port'), 
-    '2222')
+WebUI.setText(findTestObject('Master/Master_Port/Page_Master Port - Kelas Karyawan/textarea_Description_desc_port'), '2222')
 
 WebUI.click(findTestObject('Master/Master_Port/Page_Master Port - Kelas Karyawan/span_INDONESIA_select2-selection__arrow'))
 
-WebUI.setText(findTestObject('Master/Master_Port/Page_Master Port - Kelas Karyawan/input_Save_select2-search__field'), 
-    'Martinique')
+WebUI.setText(findTestObject('Master/Master_Port/Page_Master Port - Kelas Karyawan/input_Save_select2-search__field'), 'Martinique')
 
 WebUI.sendKeys(findTestObject('Master/Master_Port/Page_Master Port - Kelas Karyawan/input_Save_select2-search__field'), 
     Keys.chord(Keys.ENTER))
@@ -64,13 +65,11 @@ WebUI.click(findTestObject('Master/Master_Port/Page_Master Port - Kelas Karyawan
 
 WebUI.setText(findTestObject('Master/Master_Port/Page_Master Port - Kelas Karyawan/input__name_port'), '3333')
 
-WebUI.setText(findTestObject('Master/Master_Port/Page_Master Port - Kelas Karyawan/textarea_Description_desc_port'), 
-    '3333')
+WebUI.setText(findTestObject('Master/Master_Port/Page_Master Port - Kelas Karyawan/textarea_Description_desc_port'), '3333')
 
 WebUI.click(findTestObject('Master/Master_Port/Page_Master Port - Kelas Karyawan/span_MARTINIQUE_select2-selection__arrow'))
 
-WebUI.setText(findTestObject('Master/Master_Port/Page_Master Port - Kelas Karyawan/input_Save_select2-search__field'), 
-    'Denmark')
+WebUI.setText(findTestObject('Master/Master_Port/Page_Master Port - Kelas Karyawan/input_Save_select2-search__field'), 'Denmark')
 
 WebUI.sendKeys(findTestObject('Master/Master_Port/Page_Master Port - Kelas Karyawan/input_Save_select2-search__field'), 
     Keys.chord(Keys.ENTER))
@@ -89,8 +88,7 @@ WebUI.click(findTestObject('Master/Master_Port/Page_Master Port - Kelas Karyawan
 
 WebUI.click(findTestObject('Master/Master_Port/Page_Master Port - Kelas Karyawan/button_Yes, close it'))
 
-WebUI.setText(findTestObject('Master/Master_Port/Page_Master Port - Kelas Karyawan/input_Save_select2-search__field'), 
-    '333')
+WebUI.setText(findTestObject('Master/Master_Port/Page_Master Port - Kelas Karyawan/Cari aja'), '333')
 
 WebUI.click(findTestObject('Master/Master_Port/Page_Master Port - Kelas Karyawan/button_DENMARK_btn btn-action'))
 

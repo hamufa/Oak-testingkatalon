@@ -26,6 +26,8 @@ WebUI.setEncryptedText(findTestObject('Master/Master_Truck/input_Welcome to Oakt
 
 WebUI.click(findTestObject('Master/Master_Truck/a_Login'))
 
+WebUI.focus(findTestObject('Master/Master_Truck/a_Master'))
+
 WebUI.click(findTestObject('Master/Master_Truck/a_Master'))
 
 WebUI.focus(findTestObject('Master/Master_Truck/a_Truck'))
@@ -96,23 +98,21 @@ WebUI.click(findTestObject('Master/Master_Truck/button_Not Available_btn btn-act
 
 WebUI.click(findTestObject('Master/Master_Truck/button_Cancel'))
 
-WebUI.click(findTestObject('Master/Master_Truck/button_Cancel_1'))
+WebUI.click(findTestObject('Master/Master_Truck/button_Cancel_1 - Copy'))
 
 WebUI.click(findTestObject('Master/Master_Truck/button_Cancel'))
 
-WebUI.click(findTestObject('Master/Master_Truck/button_Yes, close it'))
-
-WebUI.setText(findTestObject('Master/Master_Truck/input_Save_select2-search__field'), '1111')
+WebUI.click(findTestObject('Master/Master_Truck/button_Yes, close it - Copy'))
 
 WebUI.click(findTestObject('Master/Master_Truck/button_Available_btn btn-action'))
 
-WebUI.click(findTestObject('Master/Master_Truck/button_Cancel_1'))
+//WebUI.click(findTestObject('Master/Master_Truck/button_Yes, delete it - Copy'))
+//
+//WebUI.click(findTestObject('Master/Master_Truck/button_Available_btn btn-action'))
+//
+//WebUI.click(findTestObject('Master/Master_Truck/button_Yes, delete it'))
 
-WebUI.click(findTestObject('Master/Master_Truck/button_Available_btn btn-action'))
-
-WebUI.click(findTestObject('Master/Master_Truck/button_Yes, delete it'))
-
-WebUI.click(findTestObject('Master/Master_Truck/button_OK'))
+//WebUI.click(findTestObject('Master/Master_Truck/button_OK'))
 
 WebUI.closeBrowser()
 

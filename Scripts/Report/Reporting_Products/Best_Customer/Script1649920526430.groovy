@@ -28,6 +28,8 @@ WebUI.setEncryptedText(findTestObject('Report_Best_Customer/input_Welcome to Oak
 
 WebUI.click(findTestObject('Report_Best_Customer/a_Login'))
 
+WebUI.focus(findTestObject('Report_Best_Customer/a_Report'))
+
 WebUI.click(findTestObject('Report_Best_Customer/a_Report'))
 
 WebUI.click(findTestObject('Report_Best_Customer/a_Best Customer'))

@@ -22,12 +22,15 @@ WebUI.navigateToUrl('https://dummy.oaktree.id/admin')
 
 WebUI.setText(findTestObject('Master/Master_Depo/Page_Login Panel/input_Welcome to Oaktree_email_user'), 'Cricket@rimbahouse.com')
 
-WebUI.setEncryptedText(findTestObject('Master/Master_Depo/Page_Login Panel/input_Welcome to Oaktree_password'), 
-    'rEXBpEkj5ITeVrsAMSY1Rw==')
+WebUI.setEncryptedText(findTestObject('Master/Master_Depo/Page_Login Panel/input_Welcome to Oaktree_password'), 'rEXBpEkj5ITeVrsAMSY1Rw==')
 
 WebUI.click(findTestObject('Master/Master_Depo/Page_Login Panel/a_Login'))
 
+WebUI.focus(findTestObject('Master/Master_Depo/Page_Dashboard - Kelas Karyawan/a_Master'))
+
 WebUI.click(findTestObject('Master/Master_Depo/Page_Dashboard - Kelas Karyawan/a_Master'))
+
+WebUI.focus(findTestObject('Master/Master_Depo/Page_Dashboard - Kelas Karyawan/a_Depo'))
 
 WebUI.click(findTestObject('Master/Master_Depo/Page_Dashboard - Kelas Karyawan/a_Depo'))
 
@@ -39,16 +42,15 @@ WebUI.click(findTestObject('Master/Master_Depo/Page_Master Depo - Kelas Karyawan
 
 WebUI.delay(5)
 
-WebUI.sendKeys(findTestObject('Master/Master_Depo/Page_Master Depo - Kelas Karyawan/input__depo_npwp', [('variable') : '']), Keys.chord(
-        Keys.CONTROL, Keys.LEFT, Keys.LEFT))
+WebUI.sendKeys(findTestObject('Master/Master_Depo/Page_Master Depo - Kelas Karyawan/input__depo_npwp', [('variable') : '']), 
+    Keys.chord(Keys.CONTROL, Keys.LEFT, Keys.LEFT))
 
-WebUI.sendKeys(findTestObject('Master/Master_Depo/Page_Master Depo - Kelas Karyawan/input__depo_npwp', [('variable') : '']), Keys.chord(
-        Keys.NUMPAD4, Keys.NUMPAD2, Keys.NUMPAD1, Keys.NUMPAD4, Keys.NUMPAD4, Keys.NUMPAD6, Keys.NUMPAD8, Keys.NUMPAD3, 
+WebUI.sendKeys(findTestObject('Master/Master_Depo/Page_Master Depo - Kelas Karyawan/input__depo_npwp', [('variable') : '']), 
+    Keys.chord(Keys.NUMPAD4, Keys.NUMPAD2, Keys.NUMPAD1, Keys.NUMPAD4, Keys.NUMPAD4, Keys.NUMPAD6, Keys.NUMPAD8, Keys.NUMPAD3, 
         Keys.NUMPAD2, Keys.NUMPAD7, Keys.NUMPAD0, Keys.NUMPAD2, Keys.NUMPAD7, Keys.NUMPAD9, Keys.NUMPAD2, Keys.NUMPAD0, 
         Keys.NUMPAD3, Keys.NUMPAD4, Keys.NUMPAD8))
 
-WebUI.setText(findTestObject('Master/Master_Depo/Page_Master Depo - Kelas Karyawan/textarea__depo_address'), 
-    '77777')
+WebUI.setText(findTestObject('Master/Master_Depo/Page_Master Depo - Kelas Karyawan/textarea__depo_address'), '77777')
 
 WebUI.click(findTestObject('Master/Master_Depo/Page_Master Depo - Kelas Karyawan/button_Save'))
 

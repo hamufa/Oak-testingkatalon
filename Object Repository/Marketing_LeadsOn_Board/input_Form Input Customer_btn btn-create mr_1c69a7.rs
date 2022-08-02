@@ -6,15 +6,19 @@
    <elementGuidId>605ea664-98d9-4801-9106-8aef8b1a83e1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input.btn.btn-create.mr-1.btn-sm</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>/html/body/div[1]/div/div[3]/div/div/div/div/div/div/div/div[1]/div[2]/div/div/div/div/form/div/div[9]/div/input</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.btn.btn-create.mr-1.btn-sm</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>063b9ae8-38c5-4a79-80fc-5cd39b9e3a7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
+      <webElementGuid>c93699e5-5b21-492a-a9cd-86e1cdbf95cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Save</value>
+      <webElementGuid>1ba9ea4f-7f2f-4d02-bb29-c6a5b818e252</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-create mr-1 btn-sm</value>
+      <webElementGuid>b3c2ab50-19a7-4654-a41e-9d397bd9651a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;wrapper&quot;)/div[@class=&quot;content-page&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card new-card&quot;]/div[@class=&quot;card-body&quot;]/div[1]/div[@class=&quot;vm--container&quot;]/div[@class=&quot;vm--modal&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;form-row mt-3&quot;]/div[@class=&quot;col-md-12 mt-1&quot;]/div[@class=&quot;float-right&quot;]/input[@class=&quot;btn btn-create mr-1 btn-sm&quot;]</value>
+      <webElementGuid>4c020a2e-e513-4b8d-a600-c3528eca05c0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='Save']</value>
+      <webElementGuid>00c1a744-4aa7-4b1a-97ba-9b08edadceea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='wrapper']/div[3]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/form/div/div[9]/div/input</value>
+      <webElementGuid>674bd8d8-bff1-4270-8411-a54d1049f2a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,5 +82,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[9]/div/input</value>
+      <webElementGuid>d4a13d3b-739d-4de6-9ed8-6c1d2cd48b51</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

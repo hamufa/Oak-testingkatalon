@@ -22,10 +22,11 @@ WebUI.navigateToUrl('https://dummy.oaktree.id/admin')
 
 WebUI.setText(findTestObject('Master/Master_Vendor/Page_Login Panel/input_Welcome to Oaktree_email_user'), 'Cricket@rimbahouse.com')
 
-WebUI.setEncryptedText(findTestObject('Master/Master_Vendor/Page_Login Panel/input_Welcome to Oaktree_password'), 
-    'rEXBpEkj5ITeVrsAMSY1Rw==')
+WebUI.setEncryptedText(findTestObject('Master/Master_Vendor/Page_Login Panel/input_Welcome to Oaktree_password'), 'rEXBpEkj5ITeVrsAMSY1Rw==')
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Login Panel/a_Login'))
+
+WebUI.focus(findTestObject('Master/Master_Vendor/Page_Dashboard - Kelas Karyawan/a_Master'))
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Dashboard - Kelas Karyawan/a_Master'))
 
@@ -41,8 +42,7 @@ WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Ka
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/span_Select Options Branch'))
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input__select2-search__field'), 
-    'HEAD OFFICE')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input__select2-search__field'), 'HEAD OFFICE')
 
 WebUI.sendKeys(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input__select2-search__field'), 
     Keys.chord(Keys.ENTER))
@@ -58,28 +58,24 @@ WebUI.sendKeys(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas K
 
 WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input__phone'), '2')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Mobile Phone_mobile'), 
-    '2')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Mobile Phone_mobile'), '2')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Faximile_faximile'), 
-    '2')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Faximile_faximile'), '2')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Website_website'), 
-    '2')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Website_website'), '2')
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/span__select2-selection__arrow'))
 
 WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input__select2-search__field'), 'Albania')
 
-WebUI.sendKeys(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input__select2-search__field'), Keys.chord(
-        Keys.ENTER))
+WebUI.sendKeys(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input__select2-search__field'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input__province'), '2')
 
 WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input__city'), '2')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Post Code_postcode'), 
-    '7')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Post Code_postcode'), '7')
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/b'))
 
@@ -95,14 +91,15 @@ WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Ka
 
 WebUI.sendKeys(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/payable_input'), Keys.chord(Keys.ENTER))
 
-WebUI.uploadFile(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Logo_fname (1)'), 'C:\\Users\\Owner\\Desktop\\vgl.jpg')
+WebUI.uploadFile(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Logo_fname (1)'), 'C:\\Users\\tanto\\git\\Oak-testingkatalon\\Upload file test\\candy.png')
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/span_Business Classification_select2-select_502732'))
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/span_Business Classification_Input'), 'Public Health')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/span_Business Classification_Input'), 
+    'Public Health')
 
-WebUI.sendKeys(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/span_Business Classification_Input'), Keys.chord(
-        Keys.ENTER))
+WebUI.sendKeys(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/span_Business Classification_Input'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Business Spesification_business_spesi_56a6f5'), 
     '2')
@@ -115,31 +112,23 @@ WebUI.sendKeys(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas K
 
 WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/textarea__address'), '2')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/textarea_Note Vendor_remarks'), 
-    '2')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/textarea_Note Vendor_remarks'), '2')
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/a_Next'))
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Name_pic_name'), 
-    '3')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Name_pic_name'), '3')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Email_pic_email'), 
-    '3')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Email_pic_email'), '3')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Position_pic_position'), 
-    '3')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Position_pic_position'), '3')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Email_pic_email'), 
-    '3@gmail.com')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Email_pic_email'), '3@gmail.com')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Remarks_pic_remarks'), 
-    '3')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Remarks_pic_remarks'), '3')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Phone No_pic_mobile'), 
-    '3')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Phone No_pic_mobile'), '3')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Division_pic_division'), 
-    '3')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Division_pic_division'), '3')
 
 WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Business Phone No_pic_phone'), 
     '3')
@@ -158,12 +147,12 @@ WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Ka
 
 WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Phone No_pic_mobile2'), '4')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Business Phone No_pic_phone2'), '4')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Business Phone No_pic_phone2'), 
+    '4')
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/a_Next'))
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Name_legality_name'), 
-    '5')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Name_legality_name'), '5')
 
 WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Remarks_legality_remarks'), 
     '5')
@@ -172,7 +161,8 @@ WebUI.click(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Kary
 
 WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Name_legality_name2'), '66')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Remarks_legality_remarks2'), '6')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Remarks_legality_remarks2'), 
+    '6')
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/button_Add_Legality'))
 
@@ -202,7 +192,8 @@ WebUI.click(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Kary
 
 WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_text_documentCode'), 'Faktur Pajak')
 
-WebUI.sendKeys(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_text_documentCode'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_text_documentCode'), Keys.chord(
+        Keys.ENTER))
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/span__tax'))
 
@@ -226,40 +217,37 @@ WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Ka
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/span_Select Options Branch'))
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input__select2-search__field'), 
-    'HEAD OFFICE')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input__select2-search__field'), 'HEAD OFFICE')
 
 WebUI.sendKeys(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input__select2-search__field'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/Edit_input_Vendor_vendor_code_text'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/Edit_input_Vendor_vendor_code_text'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/Edit_input_Vendor_vendor_code_text'), 'VN0777')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/Edit_input_Vendor_vendor_code_text'), 
+    'VN0777')
 
 WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input__phone'), '7')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Mobile Phone_mobile'), 
-    '7')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Mobile Phone_mobile'), '7')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Faximile_faximile'), 
-    '77')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Faximile_faximile'), '77')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Website_website'), 
-    '777')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Website_website'), '777')
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/span__select2-selection__arrow'))
 
 WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input__select2-search__field'), 'Belgium')
 
-WebUI.sendKeys(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input__select2-search__field'), Keys.chord(
-        Keys.ENTER))
+WebUI.sendKeys(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input__select2-search__field'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input__province'), '777')
 
 WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input__city'), '7777')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Post Code_postcode'), 
-    '7777')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Post Code_postcode'), '7777')
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/b'))
 
@@ -277,10 +265,11 @@ WebUI.sendKeys(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas K
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/span_Business Classification_select2-select_502732'))
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/span_Business Classification_Input'), 'Gambling')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/span_Business Classification_Input'), 
+    'Gambling')
 
-WebUI.sendKeys(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/span_Business Classification_Input'), Keys.chord(
-        Keys.ENTER))
+WebUI.sendKeys(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/span_Business Classification_Input'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Business Spesification_business_spesi_56a6f5'), 
     '7')
@@ -293,31 +282,23 @@ WebUI.sendKeys(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas K
 
 WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/textarea__address'), '7')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/textarea_Note Vendor_remarks'), 
-    '7')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/textarea_Note Vendor_remarks'), '7')
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/a_Next'))
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Name_pic_name'), 
-    '8')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Name_pic_name'), '8')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Email_pic_email'), 
-    '8')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Email_pic_email'), '8')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Position_pic_position'), 
-    '8')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Position_pic_position'), '8')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Email_pic_email'), 
-    '88@gmail.com')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Email_pic_email'), '88@gmail.com')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Remarks_pic_remarks'), 
-    '8')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Remarks_pic_remarks'), '8')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Phone No_pic_mobile'), 
-    '88')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Phone No_pic_mobile'), '88')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Division_pic_division'), 
-    '8')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Division_pic_division'), '8')
 
 WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Business Phone No_pic_phone'), 
     '8')
@@ -336,7 +317,8 @@ WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Ka
 
 WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Phone No_pic_mobile2'), '9')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Business Phone No_pic_phone2'), '9')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Business Phone No_pic_phone2'), 
+    '9')
 
 WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Name_pic_name3'), '10')
 
@@ -352,12 +334,12 @@ WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Ka
 
 WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Division_pic_division3'), '10')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Business Phone No_pic_phone3'), '10')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Business Phone No_pic_phone3'), 
+    '10')
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/a_Next'))
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Name_legality_name'), 
-    '666666')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Name_legality_name'), '666666')
 
 WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Remarks_legality_remarks'), 
     '666')
@@ -366,7 +348,8 @@ WebUI.click(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Kary
 
 WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Name_legality_name2'), '66')
 
-WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Remarks_legality_remarks2'), '6666')
+WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_Remarks_legality_remarks2'), 
+    '6666')
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/Edit_button_Add_Legality'))
 
@@ -394,7 +377,8 @@ WebUI.click(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Kary
 
 WebUI.setText(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_text_documentCode'), 'PIB Dan ssp')
 
-WebUI.sendKeys(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_text_documentCode'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/input_text_documentCode'), Keys.chord(
+        Keys.ENTER))
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Create Vendor - Kelas Karyawan/span__tax'))
 
@@ -414,7 +398,7 @@ WebUI.click(findTestObject('Master/Master_Vendor/Page_Update Vendor - Kelas Kary
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Master Vendor - Kelas Karyawan/button_Save_Sync'))
 
-WebUI.delay(45)
+WebUI.delay(20)
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Update Vendor - Kelas Karyawan/label_Synchronize with accurate'))
 
@@ -422,7 +406,7 @@ WebUI.click(findTestObject('Master/Master_Vendor/Page_Master Vendor - Kelas Kary
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Master Vendor - Kelas Karyawan/button_Save_Sync'))
 
-WebUI.delay(60)
+WebUI.delay(20)
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Update Vendor - Kelas Karyawan/label_Synchronize with accurate'))
 

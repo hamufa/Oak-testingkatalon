@@ -28,6 +28,8 @@ WebUI.click(findTestObject('Master/Master_Term/a_Login'))
 
 WebUI.click(findTestObject('Master/Master_Term/a_Master'))
 
+WebUI.click(findTestObject('Master/Master_Term/a_Master'))
+
 WebUI.focus(findTestObject('Master/Master_Term/a_Term'))
 
 WebUI.click(findTestObject('Master/Master_Term/a_Term'))

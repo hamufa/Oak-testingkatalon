@@ -6,12 +6,12 @@
    <elementGuidId>d19f1d06-452d-43a1-a146-60b59abd038d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@type='submit']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#form-logo > button.btn.btn-info</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;form-logo&quot;]/button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>3ad06c5d-1436-4806-a897-1b5405342200</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
+      <webElementGuid>5ec1fc6e-d7ac-4dbe-98a0-1c6761c1f9d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-info</value>
+      <webElementGuid>d5d5c696-a3b5-4638-919c-b0a750633c93</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,6 +48,7 @@
       <value>
 						save
 					</value>
+      <webElementGuid>bcd52291-2b49-4349-b123-beb1832e48a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,6 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form-logo&quot;)/button[@class=&quot;btn btn-info&quot;]</value>
+      <webElementGuid>f0ab4b42-180b-428c-bf62-cfcee093b1ea</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -59,6 +64,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
+      <webElementGuid>2b0da17e-a368-458d-b0cb-bb67691e7c41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,6 +72,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='form-logo']/button[2]</value>
+      <webElementGuid>f0bd0ced-51c2-4869-8b63-d52cf4810031</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,6 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
+      <webElementGuid>c1b0f5e7-9508-41f4-b9ca-5948375032f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,6 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*recommendation 500x500 px. Max 5MB'])[1]/following::button[2]</value>
+      <webElementGuid>86a46ff4-0499-4c84-9e6e-7106ece58beb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jobfile'])[2]/preceding::button[1]</value>
+      <webElementGuid>7e9f44ef-9a7b-4161-8acd-e24db69f221e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,5 +104,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
+      <webElementGuid>50f8707f-14e6-4870-a48d-4e94fdf44881</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

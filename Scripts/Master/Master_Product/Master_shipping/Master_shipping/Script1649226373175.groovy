@@ -26,6 +26,8 @@ WebUI.setEncryptedText(findTestObject('Master/Master_Shipping/input_Welcome to O
 
 WebUI.click(findTestObject('Master/Master_Shipping/a_Login'))
 
+WebUI.focus(findTestObject('Master/Master_Shipping/a_Master'))
+
 WebUI.click(findTestObject('Master/Master_Shipping/a_Master'))
 
 WebUI.focus(findTestObject('Master/Master_Shipping/a_Shipping'))
@@ -50,14 +52,13 @@ WebUI.click(findTestObject('Master/Master_Shipping/input_concat(id(, , select2-s
 
 WebUI.setText(findTestObject('Master/Master_Shipping/input_concat(id(, , select2-shipping_code-p_7094c6'), 'shipsby')
 
-WebUI.sendKeys(findTestObject('Master/Master_Shipping/input_concat(id(, , select2-shipping_code-p_7094c6'), Keys.chord(
-        Keys.ENTER))
+WebUI.sendKeys(findTestObject('Master/Master_Shipping/input_concat(id(, , select2-shipping_code-p_7094c6'), Keys.chord(Keys.ENTER))
 
 WebUI.setText(findTestObject('Master/Master_Shipping/input__vessel_name'), '222')
 
 WebUI.setText(findTestObject('Master/Master_Shipping/input__vessel_shipping_id1'), '22222')
 
-WebUI.setText(findTestObject('Master/Master_Shipping/input_Note_vessel_note'), '22222')
+WebUI.setText(findTestObject('Master/Master_Shipping/new input'), '22222')
 
 WebUI.click(findTestObject('Master/Master_Shipping/button_Note_btn btn-success btn-sm'))
 
@@ -91,7 +92,7 @@ WebUI.click(findTestObject('Master/Master_Shipping/button_Cancel'))
 
 WebUI.click(findTestObject('Master/Master_Shipping/button_Cancel_1'))
 
-WebUI.click(findTestObject('Master/Master_Shipping/button_Yes, close it'))
+WebUI.click(findTestObject('Master/Master_Shipping/okeh close'))
 
 WebUI.click(findTestObject('Master/Master_Shipping/button_shipsby20220406.0232_btn btn-action mr-1'))
 
@@ -137,7 +138,7 @@ WebUI.click(findTestObject('Master/Master_Shipping/button_Save'))
 
 WebUI.delay(8)
 
-WebUI.setText(findTestObject('Master/Master_Shipping/input'), '2222')
+WebUI.setText(findTestObject('Master/Master_Shipping/input'), '3333')
 
 WebUI.click(findTestObject('Master/Master_Shipping/button_shipsby202204049322_btn btn-action'))
 

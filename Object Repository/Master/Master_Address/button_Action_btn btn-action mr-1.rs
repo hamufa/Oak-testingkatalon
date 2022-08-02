@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;table&quot;]/tbody/tr[1]/td[3]/button[1]</value>
+         <value>//*[@id=&quot;table&quot;]/tbody/tr[1]/td[4]/button[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>2a30d51a-3e63-4665-8c31-4c77e6ddc623</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-action mr-1</value>
+      <webElementGuid>fce172f0-0360-413e-a5e7-4784b977813a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:void(0)</value>
+      <webElementGuid>da6a1690-7179-4eda-b2f1-d29ba349e775</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +46,7 @@
       <name>title</name>
       <type>Main</type>
       <value>View Detail</value>
+      <webElementGuid>a1f1aac8-2abd-4d06-97c2-b0f2c8b5e94d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>edit('72')</value>
+      <webElementGuid>13462672-b642-4219-ba27-8764a928d3c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;table&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[3]/button[@class=&quot;btn btn-action mr-1&quot;]</value>
+      <webElementGuid>9a651ef4-cf12-48aa-aa85-f286ba8dfaae</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@onclick=&quot;edit('72')&quot;]</value>
+      <webElementGuid>d316f45d-9f6e-4007-96e0-9c6ac2389b38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='table']/tbody/tr/td[3]/button</value>
+      <webElementGuid>f0c8dd21-37d5-4eea-8808-9bbaeeb44ba7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/following::button[1]</value>
+      <webElementGuid>be45ed5b-c863-4235-a5e8-d18e141ed8f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Address'])[2]/following::button[1]</value>
+      <webElementGuid>4e49ada8-c0e3-4a9c-9e18-a334c52d9a95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='fsa'])[1]/preceding::button[2]</value>
+      <webElementGuid>755f93b8-6a8d-421e-84a6-33cd985a605a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='tesssssssssss'])[1]/preceding::button[4]</value>
+      <webElementGuid>727f67bf-5107-4918-91aa-1ef7842813d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +118,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
+      <webElementGuid>f1a54d8b-5879-45ac-96a6-e8b870073c03</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

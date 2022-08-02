@@ -19,25 +19,35 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://dummy.oaktree.id/admin')
 
-WebUI.setText(findTestObject('Master/Master_Currency/Page_Login Panel/input_Welcome to Oaktree_email_user'), 
-    'Cricket@rimbahouse.com')
+WebUI.setText(findTestObject('Master/Master_Currency/Page_Login Panel/input_Welcome to Oaktree_email_user'), 'Cricket@rimbahouse.com')
 
-WebUI.setEncryptedText(findTestObject('Master/Master_Currency/Page_Login Panel/input_Welcome to Oaktree_password'), 
-    'rEXBpEkj5ITeVrsAMSY1Rw==')
+WebUI.setEncryptedText(findTestObject('Master/Master_Currency/Page_Login Panel/input_Welcome to Oaktree_password'), 'rEXBpEkj5ITeVrsAMSY1Rw==')
 
 WebUI.click(findTestObject('Master/Master_Currency/Page_Login Panel/a_Login'))
 
+WebUI.maximizeWindow()
+
+WebUI.focus(findTestObject('Master/Master_Currency/Page_Dashboard - Kelas Karyawan/a_Master'))
+
 WebUI.click(findTestObject('Master/Master_Currency/Page_Dashboard - Kelas Karyawan/a_Master'))
+
+WebUI.focus(findTestObject('Master/Master_Currency/Page_Dashboard - Kelas Karyawan/a_Currency'))
 
 WebUI.click(findTestObject('Master/Master_Currency/Page_Dashboard - Kelas Karyawan/a_Currency'))
 
-WebUI.click(findTestObject('Object Repository/Mater_Currency_TETER/Page_Master Currency - Kelas Karyawan/a_Edit Currency'))
+WebUI.click(findTestObject('Master/Master_Currency/Page_Master Currency - Kelas Karyawan/a_Edit Currency'))
 
-WebUI.click(findTestObject('Object Repository/Mater_Currency_TETER/Page_Master Currency - Kelas Karyawan/label_Viet Nam Dong'))
+WebUI.click(findTestObject('Master/Master_Currency/Page_Master Currency - Kelas Karyawan/label_Euro'))
 
-WebUI.click(findTestObject('Object Repository/Mater_Currency_TETER/Page_Master Currency - Kelas Karyawan/label_Philippines Peso'))
+WebUI.click(findTestObject('Master/Master_Currency/Page_Master Currency - Kelas Karyawan/label_Indonesia Rupiah'))
 
-WebUI.click(findTestObject('Object Repository/Mater_Currency_TETER/Page_Master Currency - Kelas Karyawan/button_Save'))
+WebUI.click(findTestObject('Master/Master_Currency/Page_Master Currency - Kelas Karyawan/button_Save'))
+
+WebUI.click(findTestObject('Master/Master_Currency/Page_Master Currency - Kelas Karyawan/a_Edit Currency'))
+
+WebUI.click(findTestObject('Master/Master_Currency/Page_Master Currency - Kelas Karyawan/namdong'))
+
+WebUI.click(findTestObject('Master/Master_Currency/Page_Master Currency - Kelas Karyawan/button_Save'))
 
 WebUI.closeBrowser()
 

@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -27,6 +28,8 @@ WebUI.setText(findTestObject('Object Repository/Setting_Group_Access/input_Welco
 WebUI.setEncryptedText(findTestObject('Object Repository/Setting_Group_Access/input_Welcome to Oaktree_password'), 'rEXBpEkj5ITeVrsAMSY1Rw==')
 
 WebUI.click(findTestObject('Object Repository/Setting_Group_Access/a_Login'))
+
+WebUI.focus(findTestObject('Setting_Group_Access/a_Setting'))
 
 WebUI.click(findTestObject('Object Repository/Setting_Group_Access/a_Setting'))
 
@@ -57,6 +60,8 @@ WebUI.click(findTestObject('Object Repository/Setting_Group_Access/label_Refund_
 WebUI.click(findTestObject('Object Repository/Setting_Group_Access/label_Contact Management Schedule_checkbox-label'))
 
 WebUI.click(findTestObject('Object Repository/Setting_Group_Access/label_CRM Admin_checkbox-label'))
+
+WebUI.click(findTestObject('Setting_Group_Access/Master agent please'))
 
 WebUI.click(findTestObject('Setting_Group_Access/label_Master_Agent'))
 
@@ -166,10 +171,7 @@ WebUI.click(findTestObject('Object Repository/Setting_Group_Access/label_Percent
 
 WebUI.click(findTestObject('Object Repository/Setting_Group_Access/a_Report'))
 
-WebUI.click(findTestObject('Object Repository/Setting_Group_Access/label_Contact Management_checkbox-label'))
-
-WebUI.click(findTestObject('Object Repository/Setting_Group_Access/label_Jobfile Copy_checkbox-label'))
-
+//WebUI.click(findTestObject('Object Repository/Setting_Group_Access/label_Jobfile Copy_checkbox-label'))
 WebUI.click(findTestObject('Object Repository/Setting_Group_Access/label_Refund_checkbox-label'))
 
 WebUI.click(findTestObject('Object Repository/Setting_Group_Access/label_Contact Management Schedule_checkbox-label'))
@@ -181,6 +183,8 @@ WebUI.click(findTestObject('Setting_Group_Access/label_Report_BestCustomer'))
 WebUI.click(findTestObject('Object Repository/Setting_Group_Access/label_Jobfile Journal_checkbox-label'))
 
 WebUI.click(findTestObject('Object Repository/Setting_Group_Access/a_Setting (1)'))
+
+WebUI.focus(findTestObject('Object Repository/Setting_Group_Access/label_Accurate Connection_checkbox-label'))
 
 WebUI.click(findTestObject('Object Repository/Setting_Group_Access/label_Accurate Connection_checkbox-label'))
 
@@ -354,11 +358,15 @@ WebUI.click(findTestObject('Object Repository/Setting_Group_Access/button_Save')
 
 WebUI.click(findTestObject('Object Repository/Setting_Group_Access/a_Create New'))
 
-WebUI.click(findTestObject('Object Repository/Setting_Group_Access/button_Cancel (1)'))
+WebUI.scrollToPosition(250, 300)
+
+WebUI.mouseOver(findTestObject('Setting_Group_Access/cansel sabar'))
+
+WebUI.click(findTestObject('Setting_Group_Access/cansel sabar'))
 
 WebUI.click(findTestObject('Object Repository/Setting_Group_Access/button_Cancel_1'))
 
-WebUI.click(findTestObject('Object Repository/Setting_Group_Access/button_Cancel (1)'))
+WebUI.click(findTestObject('Setting_Group_Access/cansel sabar'))
 
 WebUI.click(findTestObject('Object Repository/Setting_Group_Access/button_Yes, close it'))
 

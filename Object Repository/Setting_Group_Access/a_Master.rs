@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[2]/div[2]/div/div[2]/div/div[1]/form/div[2]/div[1]/nav/ul/li[4]/a</value>
+         <value>//ul[@id='sidebarnavgroup']/li[4]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>f1a4330a-48ef-4cc0-b999-40c18ef581b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>waves-effect waves-dark</value>
+      <webElementGuid>aebd050a-0a72-4a53-a0eb-482d7cfb7a23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:void(0)</value>
+      <webElementGuid>7e8d090c-daff-4658-a657-8497933471f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>init_table_modules(2)</value>
+      <webElementGuid>d79e784d-82d1-4505-be2f-009a7b7621cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,6 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Master</value>
+      <webElementGuid>330c2db2-9e3d-4659-b339-6526e6c6f5e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarnavgroup&quot;)/li[@class=&quot;li&quot;]/a[@class=&quot;waves-effect waves-dark&quot;]</value>
+      <webElementGuid>0b503cd0-f6d1-4844-9b6d-464bbc5dc5a2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick='init_table_modules(2)']</value>
+      <webElementGuid>14ae258c-2279-4bc4-bd79-1b58cca81833</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='sidebarnavgroup']/li[4]/a</value>
+      <webElementGuid>60f488fb-032e-427b-aedb-80049c82e901</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Master')]</value>
+      <webElementGuid>328971c2-8420-41d9-a750-2058f2f13253</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Operation'])[1]/following::a[1]</value>
+      <webElementGuid>d48981d0-efe8-4833-9c7c-7c662169393d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Marketing'])[1]/following::a[2]</value>
+      <webElementGuid>1046e9d0-ede8-4196-83c6-aeca8424c656</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Report'])[2]/preceding::a[1]</value>
+      <webElementGuid>d252adce-b8f8-4f6b-9ed7-ccc8cc158144</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Setting'])[2]/preceding::a[2]</value>
+      <webElementGuid>8204eec8-f490-4f85-ae56-c96e711fa8a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'javascript:void(0)')])[11]</value>
+      <webElementGuid>f8ff7c26-69c1-44f6-a36d-1be26b3b8d97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,5 +133,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/nav/ul/li[4]/a</value>
+      <webElementGuid>1cb850a1-e8e6-4f73-8ddb-4d8eabae8b6c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

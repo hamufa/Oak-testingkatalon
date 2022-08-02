@@ -14,27 +14,31 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://dummy.oaktree.id/admin')
 
-WebUI.setText(findTestObject('Master/Master_Currency/Page_Login Panel/input_Welcome to Oaktree_email_user'), 
-    'Cricket@rimbahouse.com')
+WebUI.setText(findTestObject('Master/Master_Currency/Page_Login Panel/input_Welcome to Oaktree_email_user'), 'Cricket@rimbahouse.com')
 
-WebUI.setEncryptedText(findTestObject('Master/Master_Currency/Page_Login Panel/input_Welcome to Oaktree_password'), 
-    'rEXBpEkj5ITeVrsAMSY1Rw==')
+WebUI.setEncryptedText(findTestObject('Master/Master_Currency/Page_Login Panel/input_Welcome to Oaktree_password'), 'rEXBpEkj5ITeVrsAMSY1Rw==')
 
 WebUI.click(findTestObject('Master/Master_Currency/Page_Login Panel/a_Login'))
 
+WebUI.maximizeWindow()
+
+WebUI.focus(findTestObject('Master/Master_Currency/Page_Dashboard - Kelas Karyawan/a_Master'))
+
 WebUI.click(findTestObject('Master/Master_Currency/Page_Dashboard - Kelas Karyawan/a_Master'))
+
+WebUI.focus(findTestObject('Master/Master_Currency/Page_Dashboard - Kelas Karyawan/a_Currency'))
 
 WebUI.click(findTestObject('Master/Master_Currency/Page_Dashboard - Kelas Karyawan/a_Currency'))
 
 WebUI.setText(findTestObject('Master/Master_Currency/Page_Master Currency - Kelas Karyawan/input'), 'IDR')
 
-WebUI.sendKeys(findTestObject('Master/Master_Currency/Page_Master Currency - Kelas Karyawan/input'), Keys.chord(
-        Keys.ENTER))
+WebUI.sendKeys(findTestObject('Master/Master_Currency/Page_Master Currency - Kelas Karyawan/input'), Keys.chord(Keys.ENTER))
 
 WebUI.closeBrowser()
 

@@ -6,12 +6,16 @@
    <elementGuidId>1729cf49-9409-4a77-9ddf-8d9aa1064b82</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>i.far.fa-calendar-alt</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>/html/body/div[1]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/div[2]/section/div[1]/div[1]/div/div[2]/div[2]/a[4]/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;0&quot;)/div[@class=&quot;card border shadow&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 text-right&quot;]/a[@class=&quot;text-secondary&quot;]/i[@class=&quot;far fa-calendar-alt&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.far.fa-calendar-alt</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
+      <webElementGuid>f70a5464-93aa-4425-a997-484d8ddd79e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>far fa-calendar-alt</value>
+      <webElementGuid>a3a27619-dce7-46e2-9eb6-e7e5b4d2014d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;0&quot;)/div[@class=&quot;card border shadow&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 text-right&quot;]/a[@class=&quot;text-secondary&quot;]/i[@class=&quot;far fa-calendar-alt&quot;]</value>
+      <webElementGuid>dc4e3e70-e0d5-424a-871e-58dc3dafc06c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -43,6 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='0']/div/div/div[2]/div[2]/a[3]/i</value>
+      <webElementGuid>3ffbd389-3668-48b2-936c-22c64192ac08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,5 +58,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[3]/i</value>
+      <webElementGuid>9e4cc684-205e-4edf-9806-622a56e296ec</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

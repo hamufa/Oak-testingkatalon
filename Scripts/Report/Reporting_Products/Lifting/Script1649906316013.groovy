@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -27,6 +28,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Report_Lifting/input_We
 WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/Report_Lifting/a_Login'))
+
+WebUI.focus(findTestObject('Object Repository/Report_Lifting/a_Report'))
 
 WebUI.click(findTestObject('Object Repository/Report_Lifting/a_Report'))
 
@@ -52,6 +55,12 @@ WebUI.click(findTestObject('Object Repository/Report_Lifting/span_Aug'))
 WebUI.click(findTestObject('Object Repository/Report_Lifting/td_10'))
 
 WebUI.click(findTestObject('Object Repository/Report_Lifting/input_End Date_end_date'))
+
+WebUI.click(findTestObject('Report_Lifting/Pilih bulan'))
+
+WebUI.click(findTestObject('Report_Lifting/mundur'))
+
+WebUI.click(findTestObject('Report_Lifting/Bulan September'))
 
 WebUI.click(findTestObject('Object Repository/Report_Lifting/td_14'))
 
@@ -138,7 +147,9 @@ WebUI.click(findTestObject('Object Repository/Report_Lifting/button_Preview'))
 
 WebUI.click(findTestObject('Object Repository/Report_Lifting/a_Export to Excel'))
 
-WebUI.click(findTestObject('Report_Lifting/span_Loading'))
+WebUI.delay(5)
+
+//WebUI.click(findTestObject('Report_Lifting/span_Loading'))
 
 WebUI.click(findTestObject('Object Repository/Report_Lifting/span_'))
 

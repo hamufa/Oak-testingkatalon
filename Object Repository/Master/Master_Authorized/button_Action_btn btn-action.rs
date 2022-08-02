@@ -6,11 +6,11 @@
    <elementGuidId>e585c9d8-6b3a-458a-bb00-0b095711fc01</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div/div[1]/div/div[2]/div/table/tbody/tr[1]/td[8]/button[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;table&quot;]/tbody/tr[1]/td[8]/button[2]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>33752bb2-2f0b-4fad-83b4-d49d9ef00df2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-action</value>
+      <webElementGuid>5b5dbb2d-54f3-45c6-a771-014553d9b60e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Delete</value>
+      <webElementGuid>2605c364-f139-41d4-a54e-110c390eee1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>delete_by_id('7')</value>
+      <webElementGuid>ded04883-a327-49e9-87ef-c245184217cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;table&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[8]/button[@class=&quot;btn btn-action&quot;]</value>
+      <webElementGuid>58d26cb7-c3ac-44c7-8f33-61c734ee465a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@onclick=&quot;delete_by_id('7')&quot;]</value>
+      <webElementGuid>e7948b5b-fc40-4dea-b570-92a6eced2058</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='table']/tbody/tr/td[8]/button[2]</value>
+      <webElementGuid>fcc6165d-999b-4065-9b3e-0d9739ffca29</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/following::button[2]</value>
+      <webElementGuid>3e081100-a62c-414f-b371-8dca84683c30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Telp/Fax'])[1]/following::button[2]</value>
+      <webElementGuid>fc5e1929-c5d4-499c-b7ac-9859bccd01dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 3 of 3 entries'])[1]/preceding::button[5]</value>
+      <webElementGuid>2cf8c050-875e-49eb-a9b6-12f5f977576d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::button[5]</value>
+      <webElementGuid>10ed879c-462c-45b7-a402-6b03a3d18134</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,11 +109,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
+      <webElementGuid>439e30db-deba-429c-974e-f375fdc5e58e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <type>Main</type>
       <value>//*[@id=&quot;table&quot;]/tbody/tr[1]/td[8]/button[1]</value>
+      <webElementGuid>14d5b0ff-b60a-47ac-8828-f7a3bebdde1d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

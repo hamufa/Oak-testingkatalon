@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -29,6 +30,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Marketing_DashBoard/inp
 WebUI.click(findTestObject('Object Repository/Marketing_DashBoard/a_Login'))
 
 WebUI.delay(5)
+
+WebUI.focus(findTestObject('Object Repository/Marketing_DashBoard/a_Marketing'))
 
 WebUI.click(findTestObject('Object Repository/Marketing_DashBoard/a_Marketing'))
 
@@ -58,15 +61,7 @@ WebUI.focus(findTestObject('Object Repository/Marketing_DashBoard/div_329a dwira
 
 WebUI.click(findTestObject('Object Repository/Marketing_DashBoard/div_329a dwira'))
 
-WebUI.focus(findTestObject('Object Repository/Marketing_DashBoard/strong_Go to Oaktree'))
-
-WebUI.click(findTestObject('Object Repository/Marketing_DashBoard/strong_Go to Oaktree'))
-
-WebUI.closeWindowUrl('https://app.oaktree.id/admin')
-
-WebUI.switchToWindowUrl('https://crm-dev.rimbahouse.com/')
-
-WebUI.click(findTestObject('Object Repository/Marketing_DashBoard/button_Close Me'))
+WebUI.click(findTestObject('Marketing_DashBoard/close button'))
 
 WebUI.click(findTestObject('Object Repository/Marketing_DashBoard/button_today'))
 

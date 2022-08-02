@@ -6,12 +6,15 @@
    <elementGuidId>8e742114-abe8-4891-9221-167caaba433b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>/html/body/div/div/div[3]/div/div/div/div/div/div/div/div[1]/div[6]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[6]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='wrapper']/div[3]/div/div/div/div/div/div/div/div/div[6]/div/div[2]/div/div[2]/div/span[3]</value>
+         <key>BASIC</key>
+         <value>//*[(text() = '2022' or . = '2022')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>ee39a367-872d-4630-b605-8ed96a641761</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>cell</value>
+      <webElementGuid>ee0a9d1b-c872-4b57-85d7-d7f77ed73457</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>2022</value>
+      <webElementGuid>04bd229e-9878-4abf-ac61-d6ba583e11b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,47 +49,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;wrapper&quot;)/div[@class=&quot;content-page&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card new-card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;velmld-parent&quot;]/div[@class=&quot;row mb-3&quot;]/div[6]/div[@class=&quot;mx-datepicker&quot;]/div[@class=&quot;mx-datepicker-popup&quot;]/div[@class=&quot;mx-calendar mx-calendar-panel-year&quot;]/div[@class=&quot;mx-calendar-content&quot;]/div[@class=&quot;mx-panel mx-panel-year&quot;]/span[@class=&quot;cell&quot;]</value>
+      <webElementGuid>6d61ed0f-f6d3-480a-838d-8a16884ed733</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='wrapper']/div[3]/div/div/div/div/div/div/div/div/div[6]/div/div[2]/div/div[2]/div/span[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='六'])[1]/following::span[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='五'])[1]/following::span[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/preceding::span[20]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview'])[1]/preceding::span[20]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[6]/div/div[2]/div/div[2]/div/span[3]</value>
-   </webElementXpaths>
 </WebElementEntity>

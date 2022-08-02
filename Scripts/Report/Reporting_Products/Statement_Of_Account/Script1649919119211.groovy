@@ -28,6 +28,8 @@ WebUI.setEncryptedText(findTestObject('Settings_Statement_Of_Account/input_Welco
 
 WebUI.click(findTestObject('Settings_Statement_Of_Account/a_Login'))
 
+WebUI.focus(findTestObject('Settings_Statement_Of_Account/a_Report'))
+
 WebUI.click(findTestObject('Settings_Statement_Of_Account/a_Report'))
 
 WebUI.click(findTestObject('Settings_Statement_Of_Account/a_Statement Of Account'))

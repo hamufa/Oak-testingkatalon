@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -28,6 +29,8 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/General_Setting/a_Login'))
 
+WebUI.focus(findTestObject('General_Setting/a_Setting'))
+
 WebUI.click(findTestObject('General_Setting/a_Setting'))
 
 WebUI.click(findTestObject('Object Repository/General_Setting/a_General Setting'))
@@ -38,9 +41,15 @@ WebUI.click(findTestObject('Object Repository/General_Setting/button_Cancel'))
 
 WebUI.click(findTestObject('Object Repository/General_Setting/button_Upload'))
 
-WebUI.uploadFile(findTestObject('General_Setting/input_Input Company Logo_logo'), 'C:\\Users\\Owner\\Desktop\\vgl.jpg')
+WebUI.uploadFile(findTestObject('General_Setting/input_Input Company Logo_logo'), 'C:\\Users\\tanto\\git\\Oak-testingkatalon\\Upload file test\\rsz_1rsz_alpha_rimba_logo.png')
 
 WebUI.click(findTestObject('Object Repository/General_Setting/button_save'))
+
+WebUI.delay(5)
+
+WebUI.takeScreenshot()
+
+WebUI.back()
 
 WebUI.focus(findTestObject('General_Setting/label_Disable_Jobfile'))
 

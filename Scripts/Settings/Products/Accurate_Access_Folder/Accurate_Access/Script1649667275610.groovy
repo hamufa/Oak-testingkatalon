@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -27,6 +28,8 @@ WebUI.setText(findTestObject('Settings_Accurate_Access/input_Welcome to Oaktree_
 WebUI.setEncryptedText(findTestObject('Settings_Accurate_Access/input_Welcome to Oaktree_password'), 'rEXBpEkj5ITeVrsAMSY1Rw==')
 
 WebUI.click(findTestObject('Settings_Accurate_Access/a_Login'))
+
+WebUI.focus(findTestObject('Settings_Accurate_Access/a_Setting'))
 
 WebUI.click(findTestObject('Settings_Accurate_Access/a_Setting'))
 
@@ -100,7 +103,7 @@ WebUI.click(findTestObject('Settings_Accurate_Access/button_Cancel_1_Edit'))
 
 WebUI.click(findTestObject('Settings_Accurate_Access/button_Cancel'))
 
-WebUI.click(findTestObject('Settings_Accurate_Access/button_Yes, close it'))
+WebUI.click(findTestObject('Settings_Accurate_Access/yes close button'))
 
 WebUI.setText(findTestObject('Settings_Accurate_Access/input_Text_Search'), '3333')
 
@@ -110,7 +113,7 @@ WebUI.click(findTestObject('Settings_Accurate_Access/button_Cancel_1_Edit'))
 
 WebUI.click(findTestObject('Settings_Accurate_Access/button_Delete'))
 
-WebUI.click(findTestObject('Settings_Accurate_Access/button_Yes, delete it'))
+WebUI.click(findTestObject('Settings_Accurate_Access/yes delete it 3'))
 
 WebUI.click(findTestObject('Settings_Accurate_Access/button_OK'))
 

@@ -30,7 +30,11 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Report_ListTransaction/
 
 WebUI.click(findTestObject('Object Repository/Report_ListTransaction/Page_Login Panel/a_Login'))
 
+WebUI.focus(findTestObject('Object Repository/Report_ListTransaction/Page_Dashboard - Rimba Ananta Vikasa Indonesia/a_Report'))
+
 WebUI.click(findTestObject('Object Repository/Report_ListTransaction/Page_Dashboard - Rimba Ananta Vikasa Indonesia/a_Report'))
+
+WebUI.focus(findTestObject('Object Repository/Report_ListTransaction/Page_Dashboard - Rimba Ananta Vikasa Indonesia/a_List Transaction'))
 
 WebUI.click(findTestObject('Object Repository/Report_ListTransaction/Page_Dashboard - Rimba Ananta Vikasa Indonesia/a_List Transaction'))
 
@@ -181,8 +185,8 @@ WebUI.click(findTestObject('Object Repository/Report_ListTransaction/Page_Report
 
 WebUI.click(findTestObject('Object Repository/Report_ListTransaction/Page_Report List Transaction -/a_Filter Data'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Report_ListTransaction/Page_Report List Transaction -/select_CustomMonthlyYearly'), 
-    'yearlyData', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Report_ListTransaction/Page_Report List Transaction -/select_CustomMonthlyYearly'),
+	'monthlyData', true)
 
 WebUI.click(findTestObject('Object Repository/Report_ListTransaction/Page_Report List Transaction -/input_Year_date'))
 

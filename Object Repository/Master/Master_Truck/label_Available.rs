@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='form']/div/div/div[5]/div/label</value>
+         <value>/html/body/div[2]/div/div/div[2]/div/div/div[2]/form/div/div/div[5]/div/label</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
+      <webElementGuid>6fa2b8f2-69b4-43de-a4d5-54949d4f7b55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>for</name>
       <type>Main</type>
       <value>status</value>
+      <webElementGuid>c95498d1-18de-4f52-82e1-fcc3ca7f5f77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Available</value>
+      <webElementGuid>b1d550c2-87c8-4412-9605-c9534948b7ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form&quot;)/div[@class=&quot;form-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;form-group m-t-10&quot;]/label[1]</value>
+      <webElementGuid>870550b2-855a-4e6a-80b0-f0e1c1d17d44</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='form']/div/div/div[5]/div/label</value>
+      <webElementGuid>0038f6e9-a636-4088-8be1-c92bd67cda3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/following::label[1]</value>
+      <webElementGuid>7b8dc303-a308-43d6-b25f-c24afbe35ad6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Remarks'])[1]/preceding::label[1]</value>
+      <webElementGuid>3425efbc-3229-47ae-90c1-0cf262c44d89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::label[2]</value>
+      <webElementGuid>7b3227f5-87b1-4f69-90a4-0c8381944aa9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,5 +86,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/label</value>
+      <webElementGuid>abd42819-d650-4fe9-832c-47a01f0a0000</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

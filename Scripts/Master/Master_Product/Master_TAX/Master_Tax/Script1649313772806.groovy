@@ -26,6 +26,8 @@ WebUI.setEncryptedText(findTestObject('Master/Master_Tax/input_Welcome to Oaktre
 
 WebUI.click(findTestObject('Master/Master_Tax/a_Login'))
 
+WebUI.focus(findTestObject('Master/Master_Tax/a_Master'))
+
 WebUI.click(findTestObject('Master/Master_Tax/a_Master'))
 
 WebUI.focus(findTestObject('Master/Master_Tax/a_Master Tax'))

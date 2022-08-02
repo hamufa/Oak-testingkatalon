@@ -28,6 +28,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Master/Master_Warehouse
 
 WebUI.click(findTestObject('Object Repository/Master/Master_Warehouse/Page_Login Panel/a_Login'))
 
+WebUI.focus(findTestObject('Object Repository/Master/Master_Warehouse/Page_Dashboard - Rimba Ananta Vikasa Indonesia/a_Master'))
+
 WebUI.click(findTestObject('Object Repository/Master/Master_Warehouse/Page_Dashboard - Rimba Ananta Vikasa Indonesia/a_Master'))
 
 WebUI.focus(findTestObject('Object Repository/Master/Master_Warehouse/Page_Dashboard - Rimba Ananta Vikasa Indonesia/a_Master Warehouse'))

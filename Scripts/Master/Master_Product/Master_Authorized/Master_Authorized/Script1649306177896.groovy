@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -25,6 +26,8 @@ WebUI.setText(findTestObject('Master/Master_Authorized/input_Welcome to Oaktree_
 WebUI.setEncryptedText(findTestObject('Master/Master_Authorized/input_Welcome to Oaktree_password'), 'rEXBpEkj5ITeVrsAMSY1Rw==')
 
 WebUI.click(findTestObject('Master/Master_Authorized/a_Login'))
+
+WebUI.focus(findTestObject('Master/Master_Authorized/a_Master'))
 
 WebUI.click(findTestObject('Master/Master_Authorized/a_Master'))
 
@@ -46,7 +49,8 @@ WebUI.setText(findTestObject('Master/Master_Authorized/input_TelpFax_telp_fax'),
 
 WebUI.click(findTestObject('Master/Master_Authorized/input_NPWP_npwp'))
 
-WebUI.sendKeys(findTestObject('Master/Master_Authorized/input_NPWP_npwp'), Keys.chord(Keys.CONTROL, Keys.LEFT, Keys.LEFT, Keys.LEFT))
+WebUI.sendKeys(findTestObject('Master/Master_Authorized/input_NPWP_npwp'), Keys.chord(Keys.CONTROL, Keys.LEFT, Keys.LEFT, 
+        Keys.LEFT))
 
 WebUI.sendKeys(findTestObject('Master/Master_Authorized/input_NPWP_npwp'), Keys.chord(Keys.NUMPAD6, Keys.NUMPAD4, Keys.NUMPAD2, 
         Keys.NUMPAD7, Keys.NUMPAD4, Keys.NUMPAD6, Keys.NUMPAD8, Keys.NUMPAD3, Keys.NUMPAD2, Keys.NUMPAD7, Keys.NUMPAD0, 
@@ -94,7 +98,8 @@ WebUI.setText(findTestObject('Master/Master_Authorized/input_TelpFax_telp_fax'),
 
 WebUI.click(findTestObject('Master/Master_Authorized/input_NPWP_npwp'))
 
-WebUI.sendKeys(findTestObject('Master/Master_Authorized/input_NPWP_npwp'), Keys.chord(Keys.CONTROL, Keys.LEFT, Keys.LEFT, Keys.LEFT))
+WebUI.sendKeys(findTestObject('Master/Master_Authorized/input_NPWP_npwp'), Keys.chord(Keys.CONTROL, Keys.LEFT, Keys.LEFT, 
+        Keys.LEFT))
 
 WebUI.sendKeys(findTestObject('Master/Master_Authorized/input_NPWP_npwp'), Keys.chord(Keys.NUMPAD6, Keys.NUMPAD4, Keys.NUMPAD2, 
         Keys.NUMPAD7, Keys.NUMPAD4, Keys.NUMPAD6, Keys.NUMPAD8, Keys.NUMPAD3, Keys.NUMPAD2, Keys.NUMPAD7, Keys.NUMPAD0, 
@@ -108,23 +113,21 @@ WebUI.click(findTestObject('Master/Master_Authorized/button_Action_btn btn-actio
 
 WebUI.click(findTestObject('Master/Master_Authorized/button_Cancel'))
 
-WebUI.click(findTestObject('Master/Master_Authorized/button_Cancel_1'))
+WebUI.click(findTestObject('Master/Master_Authorized/button_Cancel_1 - Copy'))
 
 WebUI.click(findTestObject('Master/Master_Authorized/button_Cancel'))
 
-WebUI.click(findTestObject('Master/Master_Authorized/button_Yes, close it'))
+WebUI.click(findTestObject('Master/Master_Authorized/button_Yes, close it - Copy'))
 
 WebUI.setText(findTestObject('Master/Master_Authorized/input'), '3333')
 
 WebUI.click(findTestObject('Master/Master_Authorized/button_Action_btn btn-action'))
 
-WebUI.click(findTestObject('Master/Master_Authorized/button_Cancel_1'))
+WebUI.click(findTestObject('Master/Master_Authorized/button_Cancel_1 - Copy (1)'))
 
 WebUI.click(findTestObject('Master/Master_Authorized/button_Action_btn btn-action'))
 
-WebUI.click(findTestObject('Master/Master_Authorized/button_Yes, delete it'))
-
-WebUI.click(findTestObject('Master/Master_Authorized/button_OK'))
+WebUI.click(findTestObject('Master/Master_Authorized/button_Yes, close it - Copy (1)'))
 
 WebUI.closeBrowser()
 

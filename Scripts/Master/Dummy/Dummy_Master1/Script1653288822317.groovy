@@ -118,8 +118,6 @@ WebUI.click(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyaw
 
 WebUI.click(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyawan/button_Yes, delete it'))
 
-WebUI.waitForElementVisible(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyawan/button_OK'), 9)
-
 WebUI.click(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyawan/button_OK'))
 
 WebUI.delay(3)
@@ -167,7 +165,7 @@ WebUI.click(findTestObject('Master/Final_Master_AirLine/Page_Master Airline - Ke
 
 WebUI.click(findTestObject('Master/Final_Master_AirLine/Page_Master Airline - Kelas Karyawan/i__fa fa-minus'))
 
-WebUI.click(findTestObject('Master/Final_Master_AirLine/Page_Master Airline - Kelas Karyawan/button_Yes, remove it'))
+WebUI.click(findTestObject('Master/Final_Master_AirLine/Page_Master Airline - Kelas Karyawan/ya hapus'))
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 

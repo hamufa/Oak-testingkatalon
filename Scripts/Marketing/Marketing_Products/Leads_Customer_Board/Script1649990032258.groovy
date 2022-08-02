@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -25,6 +26,8 @@ WebUI.setText(findTestObject('Object Repository/Marketing_LeadsOn_Board/input_We
 WebUI.setEncryptedText(findTestObject('Object Repository/Marketing_LeadsOn_Board/input_Welcome to Oaktree_password'), 'rEXBpEkj5ITeVrsAMSY1Rw==')
 
 WebUI.click(findTestObject('Object Repository/Marketing_LeadsOn_Board/a_Login'))
+
+WebUI.focus(findTestObject('Object Repository/Marketing_LeadsOn_Board/a_Marketing'))
 
 WebUI.click(findTestObject('Object Repository/Marketing_LeadsOn_Board/a_Marketing'))
 
@@ -42,6 +45,10 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Marketing_LeadsOn_Bo
     'null', true)
 
 WebUI.click(findTestObject('Object Repository/Marketing_LeadsOn_Board/i_Leads List_fa fa-plus'))
+
+WebUI.clearText(findTestObject('Marketing_LeadsOn_Board/field name'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.setText(findTestObject('Marketing_LeadsOn_Board/field name'), 'Dwira Usaha')
 
 WebUI.setText(findTestObject('Object Repository/Marketing_LeadsOn_Board/input_Form Input Customer_form-control form_301ace'), 
     '232323')
@@ -69,7 +76,13 @@ WebUI.setText(findTestObject('Object Repository/Marketing_LeadsOn_Board/textarea
 
 WebUI.click(findTestObject('Object Repository/Marketing_LeadsOn_Board/input_Form Input Customer_btn btn-create mr_1c69a7'))
 
+WebUI.clearText(findTestObject('Marketing_LeadsOn_Board/Search box'))
+
+WebUI.setText(findTestObject('Marketing_LeadsOn_Board/Search box'), 'Dwira Usaha')
+
 WebUI.click(findTestObject('Object Repository/Marketing_LeadsOn_Board/i_Update On_far fa-calendar-alt'))
+
+WebUI.click(findTestObject('Marketing_LeadsOn_Board/Cancel loh'))
 
 WebUI.click(findTestObject('Object Repository/Marketing_LeadsOn_Board/div_Loading'))
 

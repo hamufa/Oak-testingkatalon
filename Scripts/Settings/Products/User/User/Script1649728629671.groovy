@@ -28,21 +28,23 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Setting_User/input_Welc
 
 WebUI.click(findTestObject('Object Repository/Setting_User/a_Login'))
 
+WebUI.focus(findTestObject('Object Repository/Setting_User/a_Setting'))
+
 WebUI.click(findTestObject('Object Repository/Setting_User/a_Setting'))
 
 WebUI.click(findTestObject('Object Repository/Setting_User/a_User'))
 
 WebUI.click(findTestObject('Object Repository/Setting_User/a_Create User'))
 
-WebUI.uploadFile(findTestObject('Setting_User/input_Profile Picture_fname'), 'C:\\Users\\Owner\\Desktop\\vgl.jpg')
+WebUI.uploadFile(findTestObject('Setting_User/input_Profile Picture_fname'), 'C:\\Users\\tanto\\git\\Oak-testingkatalon\\Upload file test\\candy.png')
 
-WebUI.setText(findTestObject('Object Repository/Setting_User/input__name_user'), '333')
+WebUI.setText(findTestObject('Object Repository/Setting_User/input__name_user'), 'AdeA')
 
-WebUI.setText(findTestObject('Object Repository/Setting_User/input__email_user'), 'zxczxczasdadacxf@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Setting_User/input__email_user'), 'gramerganteng@gmail.com')
 
-WebUI.setText(findTestObject('Object Repository/Setting_User/input__mobile_user'), '333')
+WebUI.setText(findTestObject('Object Repository/Setting_User/input__mobile_user'), '12344321')
 
-WebUI.setText(findTestObject('Object Repository/Setting_User/input__employee_id'), '333')
+WebUI.setText(findTestObject('Object Repository/Setting_User/input__employee_id'), '12344321')
 
 WebUI.click(findTestObject('Object Repository/Setting_User/ul__select2-selection__rendered'))
 
@@ -50,9 +52,9 @@ WebUI.setText(findTestObject('Setting_User/input__select2-search__field'), 'Admi
 
 WebUI.sendKeys(findTestObject('Setting_User/input__select2-search__field'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
 
-WebUI.setText(findTestObject('Setting_User/Input_User_Accurate_Access'), 'Admin3')
+WebUI.setText(findTestObject('Setting_User/Input_User_Accurate_Access'), 'Admin')
 
-WebUI.sendKeys(findTestObject('Setting_User/Input_User_Accurate_Access'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
+WebUI.sendKeys(findTestObject('Setting_User/Input_User_Accurate_Access'), Keys.chord(Keys.ENTER))
 
 WebUI.setText(findTestObject('Setting_User/input_Branch'), 'HEAD OFFICE')
 
@@ -64,19 +66,19 @@ WebUI.waitForElementNotVisible(findTestObject('Object Repository/Setting_User/bu
 
 WebUI.click(findTestObject('Object Repository/Setting_User/button_Active_btn btn-action mr-1'))
 
-WebUI.uploadFile(findTestObject('Setting_User/input_Profile Picture_fname'), 'C:\\Users\\Owner\\Desktop\\vgl.jpg')
+WebUI.uploadFile(findTestObject('Setting_User/input_Profile Picture_fname'), 'C:\\Users\\tanto\\git\\Oak-testingkatalon\\Upload file test\\ice-cream.png')
 
 WebUI.click(findTestObject('Object Repository/Setting_User/div_Profile PictureName  Email  Mobile Phon_7b2fcb'))
 
-WebUI.setText(findTestObject('Object Repository/Setting_User/input__name_user'), '22222')
+WebUI.setText(findTestObject('Object Repository/Setting_User/input__name_user'), '890098')
 
 WebUI.click(findTestObject('Object Repository/Setting_User/div_Profile PictureName  Email  Mobile Phon_7b2fcb'))
 
-WebUI.setText(findTestObject('Object Repository/Setting_User/input__mobile_user'), '22222')
+WebUI.setText(findTestObject('Object Repository/Setting_User/input__mobile_user'), '890098')
 
 WebUI.click(findTestObject('Object Repository/Setting_User/div_.select2-container .select2-selection--_059811'))
 
-WebUI.setText(findTestObject('Object Repository/Setting_User/input__employee_id'), '22222')
+WebUI.setText(findTestObject('Object Repository/Setting_User/input__employee_id'), '890098')
 
 WebUI.click(findTestObject('Object Repository/Setting_User/ul_Administrator JKT'))
 
@@ -122,7 +124,7 @@ WebUI.click(findTestObject('Setting_User/button_Yes, close it_Edit'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Setting_User/input_Search'), '22222')
+WebUI.setText(findTestObject('Setting_User/input_Search'), '890098')
 
 WebUI.click(findTestObject('Object Repository/Setting_User/button_Active_btn btn-action'))
 

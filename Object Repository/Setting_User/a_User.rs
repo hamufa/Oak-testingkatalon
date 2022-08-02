@@ -14,7 +14,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;sidebarnav&quot;]/li[9]/ul/li[3]</value>
+         <value>//*[@id=&quot;sidebarnav&quot;]/li[6]/ul/li[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

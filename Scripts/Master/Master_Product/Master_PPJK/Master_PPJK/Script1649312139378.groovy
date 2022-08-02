@@ -26,6 +26,8 @@ WebUI.setEncryptedText(findTestObject('Master/Master_PPJK/input_Welcome to Oaktr
 
 WebUI.click(findTestObject('Master/Master_PPJK/a_Login'))
 
+WebUI.focus(findTestObject('Master/Master_PPJK/a_Master'))
+
 WebUI.click(findTestObject('Master/Master_PPJK/a_Master'))
 
 WebUI.focus(findTestObject('Master/Master_PPJK/a_PPJK'))
@@ -83,6 +85,8 @@ WebUI.click(findTestObject('Master/Master_PPJK/div_Edit PPJKName PPJK  NPWP  PPJ
 WebUI.setText(findTestObject('Master/Master_PPJK/textarea__address'), '3333')
 
 WebUI.click(findTestObject('Master/Master_PPJK/button_Save'))
+
+WebUI.waitForElementNotVisible(findTestObject('Master/Master_PPJK/button_Save'), 6)
 
 WebUI.click(findTestObject('Master/Master_PPJK/button_Action_btn btn-action mr-1'))
 

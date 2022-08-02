@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -28,6 +29,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Marketing_LeadCust_List
 
 WebUI.click(findTestObject('Object Repository/Marketing_LeadCust_List/a_Login'))
 
+WebUI.focus(findTestObject('Marketing_LeadCust_List/a_Marketing'))
+
 WebUI.click(findTestObject('Object Repository/Marketing_LeadCust_List/a_Marketing'))
 
 WebUI.click(findTestObject('Object Repository/Marketing_LeadCust_List/a_Leads Customer'))
@@ -37,7 +40,7 @@ WebUI.click(findTestObject('Object Repository/Marketing_LeadCust_List/a_List'))
 WebUI.click(findTestObject('Object Repository/Marketing_LeadCust_List/button_Create New'))
 
 WebUI.setText(findTestObject('Object Repository/Marketing_LeadCust_List/input_Form Input Customer_form-control form_301ace'), 
-    '232323')
+    'Konohamaru')
 
 WebUI.setText(findTestObject('Object Repository/Marketing_LeadCust_List/input_Form Input Customer_form-control form_301ace_1'), 
     '232323@gmail.com')
@@ -72,7 +75,7 @@ WebUI.click(findTestObject('Object Repository/Marketing_LeadCust_List/a_Leads_ac
 WebUI.click(findTestObject('Object Repository/Marketing_LeadCust_List/div_Form edit customer Company NameEmailPIC_fcbc7d'))
 
 WebUI.setText(findTestObject('Object Repository/Marketing_LeadCust_List/input_Company Name_form-control form-control-sm'), 
-    '44444')
+    'Konohamaru')
 
 WebUI.setText(findTestObject('Object Repository/Marketing_LeadCust_List/input_Email_form-control form-control-sm'), '44444@gmail.com')
 
@@ -87,8 +90,7 @@ WebUI.setText(findTestObject('Object Repository/Marketing_LeadCust_List/input_Mo
 
 WebUI.click(findTestObject('Object Repository/Marketing_LeadCust_List/div_Form edit customer Company NameEmailPIC_fcbc7d'))
 
-WebUI.setText(findTestObject('Object Repository/Marketing_LeadCust_List/input_Form Input Customer_form-control form_301ace_1_2_3_4'), 
-    '44444')
+WebUI.setText(findTestObject('Marketing_LeadCust_List/Pic position'), '44444')
 
 WebUI.click(findTestObject('Object Repository/Marketing_LeadCust_List/div_Company NameEmailPIC NameMobile PhonePI_df7b30'))
 
@@ -102,29 +104,28 @@ WebUI.setText(findTestObject('Object Repository/Marketing_LeadCust_List/textarea
 
 WebUI.click(findTestObject('Object Repository/Marketing_LeadCust_List/div_Company NameEmailPIC NameMobile PhonePI_df7b30'))
 
-WebUI.setText(findTestObject('Object Repository/Marketing_LeadCust_List/textarea_Form Input Customer_form-control f_58db0a_1'), 
-    '44444')
+WebUI.setText(findTestObject('Marketing_LeadCust_List/Remark'), '44444')
 
-WebUI.click(findTestObject('Marketing_LeadCust_List/Save'))
+WebUI.click(findTestObject('Marketing_LeadCust_List/Save update'))
 
 WebUI.click(findTestObject('Object Repository/Marketing_LeadCust_List/div_Search'))
 
 WebUI.setText(findTestObject('Object Repository/Marketing_LeadCust_List/input_Search _form-control form-control-sm _fca982'), 
-    '44444')
+    'Konohamaru')
 
 WebUI.click(findTestObject('Object Repository/Marketing_LeadCust_List/i_Leads_fas fa-eye'))
 
 WebUI.refresh()
 
 WebUI.setText(findTestObject('Object Repository/Marketing_LeadCust_List/input_Search _form-control form-control-sm _fca982'), 
-    '44444')
+    'Konohamaru')
 
 WebUI.click(findTestObject('Object Repository/Marketing_LeadCust_List/i_Leads_far fa-calendar-alt'))
 
 WebUI.refresh()
 
 WebUI.setText(findTestObject('Object Repository/Marketing_LeadCust_List/input_Search _form-control form-control-sm _fca982'), 
-    '44444')
+    'Konohamaru')
 
 WebUI.click(findTestObject('Object Repository/Marketing_LeadCust_List/button_Create New'))
 

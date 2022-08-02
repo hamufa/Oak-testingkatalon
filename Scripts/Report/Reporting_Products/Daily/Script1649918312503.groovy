@@ -26,6 +26,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Report_Daily/input_Welc
 
 WebUI.click(findTestObject('Object Repository/Report_Daily/a_Login'))
 
+WebUI.focus(findTestObject('Object Repository/Report_Daily/a_Report'))
+
 WebUI.click(findTestObject('Object Repository/Report_Daily/a_Report'))
 
 WebUI.click(findTestObject('Object Repository/Report_Daily/a_Daily'))

@@ -28,17 +28,19 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Setting_Notification/in
 
 WebUI.click(findTestObject('Object Repository/Setting_Notification/a_Login'))
 
+WebUI.focus(findTestObject('Object Repository/Setting_Notification/a_Setting'))
+
 WebUI.click(findTestObject('Object Repository/Setting_Notification/a_Setting'))
 
 WebUI.click(findTestObject('Object Repository/Setting_Notification/a_Notification'))
 
 WebUI.click(findTestObject('Object Repository/Setting_Notification/a_Create New'))
 
-WebUI.click(findTestObject('Object Repository/Setting_Notification/button_Cancel'))
+WebUI.click(findTestObject('Setting_Notification/button cansel b'))
 
 WebUI.click(findTestObject('Object Repository/Setting_Notification/button_Cancel_1'))
 
-WebUI.click(findTestObject('Object Repository/Setting_Notification/button_Cancel'))
+WebUI.click(findTestObject('Setting_Notification/button cansel b'))
 
 WebUI.click(findTestObject('Object Repository/Setting_Notification/button_Yes, close it'))
 
@@ -130,21 +132,19 @@ WebUI.sendKeys(findTestObject('Object Repository/Setting_Notification/input_Yes,
 
 WebUI.click(findTestObject('Object Repository/Setting_Notification/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/Setting_Notification/button_dika,_btn btn-action mr-1'))
-
-WebUI.click(findTestObject('Object Repository/Setting_Notification/button_Cancel'))
-
-WebUI.click(findTestObject('Object Repository/Setting_Notification/button_Cancel_1'))
-
-WebUI.click(findTestObject('Object Repository/Setting_Notification/button_Cancel'))
-
-WebUI.click(findTestObject('Object Repository/Setting_Notification/button_Yes, close it'))
+WebUI.waitForElementNotVisible(findTestObject('Object Repository/Setting_Notification/button_Save'), 9)
 
 WebUI.click(findTestObject('Object Repository/Setting_Notification/img_-_edit'))
 
-WebUI.click(findTestObject('Object Repository/Setting_Notification/button_Cancel_1'))
+WebUI.click(findTestObject('Setting_Notification/Pelengkap'))
 
-WebUI.click(findTestObject('Object Repository/Setting_Notification/button_-_btn btn-action'))
+WebUI.click(findTestObject('Setting_Notification/DIKA CANCEL LAGI'))
+
+WebUI.click(findTestObject('Setting_Notification/Pelengkap'))
+
+WebUI.click(findTestObject('Setting_Notification/Pelengkap - Copy'))
+
+WebUI.click(findTestObject('Setting_Notification/DIKATERAKHIR'))
 
 WebUI.click(findTestObject('Object Repository/Setting_Notification/button_Yes, delete it'))
 

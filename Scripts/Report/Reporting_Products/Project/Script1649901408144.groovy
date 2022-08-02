@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -27,6 +28,8 @@ WebUI.setText(findTestObject('Object Repository/Report_Project/input_Welcome to 
 WebUI.setEncryptedText(findTestObject('Object Repository/Report_Project/input_Welcome to Oaktree_password'), 'rEXBpEkj5ITeVrsAMSY1Rw==')
 
 WebUI.click(findTestObject('Object Repository/Report_Project/a_Login'))
+
+WebUI.focus(findTestObject('Object Repository/Report_Project/a_Report'))
 
 WebUI.click(findTestObject('Object Repository/Report_Project/a_Report'))
 
@@ -269,4 +272,6 @@ WebUI.click(findTestObject('Object Repository/Report_Project/a_Filter'))
 WebUI.click(findTestObject('Object Repository/Report_Project/button_Preview'))
 
 WebUI.click(findTestObject('Object Repository/Report_Project/a_Export to Excel'))
+
+WebUI.closeBrowser()
 
