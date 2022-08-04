@@ -32,6 +32,8 @@ WebUI.focus(findTestObject('Object Repository/Setting_User/a_Setting'))
 
 WebUI.click(findTestObject('Object Repository/Setting_User/a_Setting'))
 
+WebUI.focus(findTestObject('Object Repository/Setting_User/a_User'))
+
 WebUI.click(findTestObject('Object Repository/Setting_User/a_User'))
 
 WebUI.click(findTestObject('Object Repository/Setting_User/a_Create User'))
@@ -40,11 +42,11 @@ WebUI.uploadFile(findTestObject('Setting_User/input_Profile Picture_fname'), 'C:
 
 WebUI.setText(findTestObject('Object Repository/Setting_User/input__name_user'), 'AdeA')
 
-WebUI.setText(findTestObject('Object Repository/Setting_User/input__email_user'), 'gramerganteng@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Setting_User/input__email_user'), 'Wirausaha@gmail.com')
 
-WebUI.setText(findTestObject('Object Repository/Setting_User/input__mobile_user'), '12344321')
+WebUI.setText(findTestObject('Object Repository/Setting_User/input__mobile_user'), 'fdsfsd')
 
-WebUI.setText(findTestObject('Object Repository/Setting_User/input__employee_id'), '12344321')
+WebUI.setText(findTestObject('Object Repository/Setting_User/input__employee_id'), 'asdsadsa')
 
 WebUI.click(findTestObject('Object Repository/Setting_User/ul__select2-selection__rendered'))
 
@@ -62,7 +64,7 @@ WebUI.sendKeys(findTestObject('Setting_User/input_Branch'), Keys.chord(Keys.ARRO
 
 WebUI.click(findTestObject('Object Repository/Setting_User/button_Save'))
 
-WebUI.waitForElementNotVisible(findTestObject('Object Repository/Setting_User/button_Save'), 8)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Setting_User/button_Active_btn btn-action mr-1'))
 
@@ -70,19 +72,19 @@ WebUI.uploadFile(findTestObject('Setting_User/input_Profile Picture_fname'), 'C:
 
 WebUI.click(findTestObject('Object Repository/Setting_User/div_Profile PictureName  Email  Mobile Phon_7b2fcb'))
 
-WebUI.setText(findTestObject('Object Repository/Setting_User/input__name_user'), '890098')
+WebUI.setText(findTestObject('Object Repository/Setting_User/input__name_user'), 'wirawirandang')
 
 WebUI.click(findTestObject('Object Repository/Setting_User/div_Profile PictureName  Email  Mobile Phon_7b2fcb'))
 
-WebUI.setText(findTestObject('Object Repository/Setting_User/input__mobile_user'), '890098')
+WebUI.setText(findTestObject('Object Repository/Setting_User/input__mobile_user'), 'dsfdsaf')
 
 WebUI.click(findTestObject('Object Repository/Setting_User/div_.select2-container .select2-selection--_059811'))
 
-WebUI.setText(findTestObject('Object Repository/Setting_User/input__employee_id'), '890098')
+WebUI.setText(findTestObject('Object Repository/Setting_User/input__employee_id'), 'nsS')
 
 WebUI.click(findTestObject('Object Repository/Setting_User/ul_Administrator JKT'))
 
-WebUI.setText(findTestObject('Object Repository/Setting_User/input__select2-search__field'), 'Administrator')
+WebUI.setText(findTestObject('Object Repository/Setting_User/input__select2-search__field'), 'fdsfsd')
 
 WebUI.sendKeys(findTestObject('Setting_User/input__select2-search__field'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
 
@@ -124,7 +126,7 @@ WebUI.click(findTestObject('Setting_User/button_Yes, close it_Edit'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Setting_User/input_Search'), '890098')
+WebUI.setText(findTestObject('Setting_User/input_Search'), 'wirawirandang')
 
 WebUI.click(findTestObject('Object Repository/Setting_User/button_Active_btn btn-action'))
 
@@ -147,6 +149,8 @@ WebUI.click(findTestObject('Object Repository/Setting_User/button_Yes, delete it
 WebUI.waitForElementVisible(findTestObject('Object Repository/Setting_User/button_OK'), 9)
 
 WebUI.click(findTestObject('Object Repository/Setting_User/button_OK'))
+
+WebUI.delay(4)
 
 WebUI.closeBrowser()
 

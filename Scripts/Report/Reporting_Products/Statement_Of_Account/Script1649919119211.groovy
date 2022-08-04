@@ -15,12 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://dummy.oaktree.id/admin')
-
-WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Settings_Statement_Of_Account/input_Welcome to Oaktree_email_user'), 'Cricket@rimbahouse.com')
 
@@ -28,9 +27,15 @@ WebUI.setEncryptedText(findTestObject('Settings_Statement_Of_Account/input_Welco
 
 WebUI.click(findTestObject('Settings_Statement_Of_Account/a_Login'))
 
+WebUI.maximizeWindow()
+
+WebUI.maximizeWindow()
+
 WebUI.focus(findTestObject('Settings_Statement_Of_Account/a_Report'))
 
 WebUI.click(findTestObject('Settings_Statement_Of_Account/a_Report'))
+
+WebUI.focus(findTestObject('Settings_Statement_Of_Account/a_Statement Of Account'))
 
 WebUI.click(findTestObject('Settings_Statement_Of_Account/a_Statement Of Account'))
 
@@ -62,6 +67,8 @@ WebUI.click(findTestObject('Settings_Statement_Of_Account/button_Preview'))
 
 WebUI.click(findTestObject('Settings_Statement_Of_Account/a_Export to Pdf'))
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Settings_Statement_Of_Account/span_Custom'))
 
 WebUI.setText(findTestObject('Settings_Statement_Of_Account/input_Please wait a moment, your data is be_4ee5db'), 'Monthly')
@@ -83,6 +90,8 @@ WebUI.sendKeys(findTestObject('Settings_Statement_Of_Account/input_Please wait a
 WebUI.click(findTestObject('Settings_Statement_Of_Account/button_Preview'))
 
 WebUI.click(findTestObject('Settings_Statement_Of_Account/a_Filter'))
+
+WebUI.delay(4)
 
 WebUI.closeBrowser()
 

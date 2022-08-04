@@ -33,6 +33,8 @@ WebUI.focus(findTestObject('Setting_Group_Access/a_Setting'))
 
 WebUI.click(findTestObject('Object Repository/Setting_Group_Access/a_Setting'))
 
+WebUI.focus(findTestObject('Object Repository/Setting_Group_Access/a_Group Access'))
+
 WebUI.click(findTestObject('Object Repository/Setting_Group_Access/a_Group Access'))
 
 WebUI.click(findTestObject('Object Repository/Setting_Group_Access/a_Create New'))
@@ -381,6 +383,8 @@ WebUI.click(findTestObject('Setting_Group_Access/Button_Delete'))
 WebUI.click(findTestObject('Object Repository/Setting_Group_Access/button_Yes, delete it'))
 
 WebUI.click(findTestObject('Object Repository/Setting_Group_Access/button_OK'))
+
+WebUI.delay(4)
 
 WebUI.closeBrowser()
 

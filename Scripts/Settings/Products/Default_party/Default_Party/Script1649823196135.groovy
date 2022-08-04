@@ -33,6 +33,8 @@ WebUI.focus(findTestObject('Setting_DefaultParty/a_Setting'))
 
 WebUI.click(findTestObject('Object Repository/Setting_DefaultParty/a_Setting'))
 
+WebUI.focus(findTestObject('Object Repository/Setting_DefaultParty/a_Default Party'))
+
 WebUI.click(findTestObject('Object Repository/Setting_DefaultParty/a_Default Party'))
 
 WebUI.click(findTestObject('Object Repository/Setting_DefaultParty/button_Add Party'))
@@ -88,6 +90,8 @@ WebUI.click(findTestObject('Object Repository/Setting_DefaultParty/button_Yes, d
 WebUI.waitForElementVisible(findTestObject('Object Repository/Setting_DefaultParty/button_OK'), 8)
 
 WebUI.click(findTestObject('Object Repository/Setting_DefaultParty/button_OK'))
+
+WebUI.delay(4)
 
 WebUI.closeBrowser()
 

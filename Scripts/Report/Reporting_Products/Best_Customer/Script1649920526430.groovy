@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -28,9 +29,13 @@ WebUI.setEncryptedText(findTestObject('Report_Best_Customer/input_Welcome to Oak
 
 WebUI.click(findTestObject('Report_Best_Customer/a_Login'))
 
+WebUI.maximizeWindow()
+
 WebUI.focus(findTestObject('Report_Best_Customer/a_Report'))
 
 WebUI.click(findTestObject('Report_Best_Customer/a_Report'))
+
+WebUI.focus(findTestObject('Report_Best_Customer/a_Best Customer'))
 
 WebUI.click(findTestObject('Report_Best_Customer/a_Best Customer'))
 
@@ -132,6 +137,8 @@ WebUI.click(findTestObject('Report_Best_Customer/a_Filter Data'))
 WebUI.click(findTestObject('Report_Best_Customer/button_Filter'))
 
 WebUI.click(findTestObject('Report_Best_Customer/a_Export PDF'))
+
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 

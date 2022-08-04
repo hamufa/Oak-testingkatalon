@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -26,7 +27,9 @@ WebUI.setEncryptedText(findTestObject('Master/Master_Term/input_Welcome to Oaktr
 
 WebUI.click(findTestObject('Master/Master_Term/a_Login'))
 
-WebUI.click(findTestObject('Master/Master_Term/a_Master'))
+WebUI.maximizeWindow()
+
+WebUI.focus(findTestObject('Master/Master_Term/a_Master'))
 
 WebUI.click(findTestObject('Master/Master_Term/a_Master'))
 
@@ -87,6 +90,8 @@ WebUI.click(findTestObject('Master/Master_Term/button_No_btn btn-action'))
 WebUI.click(findTestObject('Master/Master_Term/button_Yes, delete it'))
 
 WebUI.click(findTestObject('Master/Master_Term/button_OK'))
+
+WebUI.delay(4)
 
 WebUI.closeBrowser()
 

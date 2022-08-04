@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -25,6 +26,8 @@ WebUI.setText(findTestObject('Master/Master_PPJK/input_Welcome to Oaktree_email_
 WebUI.setEncryptedText(findTestObject('Master/Master_PPJK/input_Welcome to Oaktree_password'), 'rEXBpEkj5ITeVrsAMSY1Rw==')
 
 WebUI.click(findTestObject('Master/Master_PPJK/a_Login'))
+
+WebUI.maximizeWindow()
 
 WebUI.focus(findTestObject('Master/Master_PPJK/a_Master'))
 
@@ -86,7 +89,7 @@ WebUI.setText(findTestObject('Master/Master_PPJK/textarea__address'), '3333')
 
 WebUI.click(findTestObject('Master/Master_PPJK/button_Save'))
 
-WebUI.waitForElementNotVisible(findTestObject('Master/Master_PPJK/button_Save'), 6)
+WebUI.delay(6, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Master/Master_PPJK/button_Action_btn btn-action mr-1'))
 

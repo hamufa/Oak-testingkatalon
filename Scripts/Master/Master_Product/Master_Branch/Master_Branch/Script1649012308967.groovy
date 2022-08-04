@@ -26,6 +26,8 @@ WebUI.setEncryptedText(findTestObject('Master/Master_Branch/Page_Login Panel/inp
 
 WebUI.click(findTestObject('Master/Master_Branch/Page_Login Panel/a_Login'))
 
+WebUI.maximizeWindow()
+
 WebUI.focus(findTestObject('Master/Master_Branch/Page_Dashboard - Kelas Karyawan/a_Master'))
 
 WebUI.click(findTestObject('Master/Master_Branch/Page_Dashboard - Kelas Karyawan/a_Master'))
@@ -66,35 +68,37 @@ WebUI.setText(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/
 
 WebUI.click(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/button_Save'))
 
+WebUI.setText(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/input'), '1515')
+
 WebUI.click(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/button edit'))
 
 WebUI.click(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/div__col-md-12'))
 
-WebUI.setText(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/input__branchCode'), '321')
+WebUI.setText(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/input__branchCode'), 'Mahakam')
 
 WebUI.click(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/div_Address_col-md-12'))
 
-WebUI.setText(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/textarea_Address_street'), '321')
+WebUI.setText(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/textarea_Address_street'), 'war')
 
 WebUI.click(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/div_Branch Code  Name  Accurate Cloud Based_b1b635'))
 
-WebUI.setText(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/input_Address_city'), '321')
+WebUI.setText(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/input_Address_city'), 'war')
 
 WebUI.click(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/div_Branch Code  Name  Accurate Cloud Based_b1b635'))
 
-WebUI.setText(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/input_Address_state'), '321')
+WebUI.setText(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/input_Address_state'), 'war')
 
 WebUI.click(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/div_Branch Code  Name  Accurate Cloud Based_b1b635'))
 
-WebUI.setText(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/input_Address_country'), '321')
+WebUI.setText(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/input_Address_country'), 'war')
 
 WebUI.click(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/div_Address_row'))
 
-WebUI.setText(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/input_Address_postCode'), '321')
+WebUI.setText(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/input_Address_postCode'), 'war')
 
 WebUI.click(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/div__col-md-12_1'))
 
-WebUI.setText(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/input__name'), '321')
+WebUI.setText(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/input__name'), 'war')
 
 WebUI.click(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/button_Save'))
 
@@ -112,23 +116,7 @@ WebUI.click(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/ye
 
 WebUI.delay(8)
 
-WebUI.click(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/a_Sync'))
-
-WebUI.click(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/label_Skip data'))
-
-WebUI.click(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/button_Sync'))
-
-WebUI.delay(8)
-
-WebUI.click(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/a_Sync'))
-
-WebUI.click(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/label_Update data'))
-
-WebUI.click(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/button_Sync'))
-
-WebUI.delay(8)
-
-WebUI.setText(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/input'), '321')
+WebUI.setText(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/input'), 'Mahakam')
 
 WebUI.click(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/button_-_btn btn-action'))
 
@@ -139,6 +127,8 @@ WebUI.click(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/bu
 WebUI.click(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/button_Yes, delete it'))
 
 WebUI.click(findTestObject('Master/Master_Branch/Page_Master - Kelas Karyawan/button_OK'))
+
+WebUI.delay(4)
 
 WebUI.closeBrowser()
 

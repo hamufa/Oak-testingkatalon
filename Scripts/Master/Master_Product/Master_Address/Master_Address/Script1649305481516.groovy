@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -26,6 +27,10 @@ WebUI.setEncryptedText(findTestObject('Master/Master_Address/input_Welcome to Oa
 
 WebUI.click(findTestObject('Master/Master_Address/a_Login'))
 
+WebUI.maximizeWindow()
+
+WebUI.focus(findTestObject('Master/Master_Address/a_Master'))
+
 WebUI.click(findTestObject('Master/Master_Address/a_Master'))
 
 WebUI.focus(findTestObject('Master/Master_Address/a_Address'))
@@ -34,25 +39,9 @@ WebUI.click(findTestObject('Master/Master_Address/a_Address'))
 
 WebUI.click(findTestObject('Master/Master_Address/a_Create New'))
 
+WebUI.setText(findTestObject('Master/Master_Address/name adrees'), 'sukabumi')
+
 WebUI.setText(findTestObject('Master/Master_Address/textarea__warehouse_address'), '232323')
-
-WebUI.click(findTestObject('Master/Master_Address/button_Save'))
-
-WebUI.delay(4)
-
-WebUI.click(findTestObject('Master/Master_Address/a_Create New'))
-
-WebUI.click(findTestObject('Master/Master_Address/button_Cancel'))
-
-WebUI.click(findTestObject('Master/Master_Address/button_Cancel_1'))
-
-WebUI.click(findTestObject('Master/Master_Address/button_Cancel'))
-
-WebUI.click(findTestObject('Master/Master_Address/button_Yes, close it'))
-
-WebUI.click(findTestObject('Master/Master_Address/button_Action_btn btn-action mr-1'))
-
-WebUI.setText(findTestObject('Master/Master_Address/textarea__warehouse_address'), 'ea ea ea')
 
 WebUI.click(findTestObject('Master/Master_Address/button_Save'))
 
@@ -68,7 +57,17 @@ WebUI.click(findTestObject('Master/Master_Address/button_Cancel'))
 
 WebUI.click(findTestObject('Master/Master_Address/button_Yes, close it'))
 
-WebUI.setText(findTestObject('Master/Master_Address/input'), 'ea ea')
+WebUI.click(findTestObject('Master/Master_Address/button_Action_btn btn-action mr-1'))
+
+WebUI.setText(findTestObject('Master/Master_Address/name adrees'), 'Bandung')
+
+WebUI.setText(findTestObject('Master/Master_Address/textarea__warehouse_address'), 'lautan api')
+
+WebUI.click(findTestObject('Master/Master_Address/button_Save'))
+
+WebUI.delay(4)
+
+WebUI.setText(findTestObject('Master/Master_Address/input'), 'lautan api')
 
 WebUI.click(findTestObject('Master/Master_Address/button_ea ea ea_btn btn-action'))
 
@@ -79,6 +78,8 @@ WebUI.click(findTestObject('Master/Master_Address/button_ea ea ea_btn btn-action
 WebUI.click(findTestObject('Master/Master_Address/button_Yes, delete it'))
 
 WebUI.click(findTestObject('Master/Master_Address/button_OK'))
+
+WebUI.delay(4)
 
 WebUI.closeBrowser()
 

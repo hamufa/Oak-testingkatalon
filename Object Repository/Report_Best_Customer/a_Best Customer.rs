@@ -6,10 +6,6 @@
    <elementGuidId>2c87ffb5-c59d-417a-917e-b0fc028bbd8b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[2]/aside/div/div[1]/nav/ul/li[5]/ul/li[6]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@href = 'https://crm-dev.rimbahouse.com/best-customer' and (text() = '
 											
@@ -25,6 +21,10 @@
       </entry>
       <entry>
          <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/aside/div/div[1]/nav/ul/li[5]/ul/li[6]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

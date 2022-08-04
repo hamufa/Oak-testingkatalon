@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[2]/aside/div/div[1]/nav/ul/li[2]/a</value>
+         <value>/html/body/div[2]/aside/div/div[1]/nav/ul/li[4]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>d7035682-0d46-4640-9295-76117d05d609</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>has-arrow waves-effect waves-dark</value>
+      <webElementGuid>2ab523c8-6e4d-4679-b3de-5e541204634f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>2ac5cdcf-751e-4047-aae9-32ccd137a21a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>9962e11c-cfc1-45fe-9aa9-70d9dfbdbe2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,6 +57,7 @@
 									
 								
 								Master</value>
+      <webElementGuid>e17e8ee8-b522-40c4-8d25-7166101e87a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,6 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarnav&quot;)/li[3]/a[@class=&quot;has-arrow waves-effect waves-dark&quot;]</value>
+      <webElementGuid>a55a5988-b0e2-4e04-aa7d-837cd134af3d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -67,6 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='sidebarnav']/li[3]/a</value>
+      <webElementGuid>ef605b65-cf1e-49e1-973c-0f89b2eba5c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,6 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft Transaction'])[1]/following::a[1]</value>
+      <webElementGuid>a7e4c7f8-9401-4ba2-b561-d9c668c6c860</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Activity Log'])[1]/following::a[2]</value>
+      <webElementGuid>0fdaed90-4cef-4c86-95c8-24b83eb294de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,6 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Agent'])[1]/preceding::a[1]</value>
+      <webElementGuid>21f484e0-22d1-4039-8728-5e1d77d9a586</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +105,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[6]</value>
+      <webElementGuid>acebdfe7-b797-435a-b4e6-c5fa664b0e6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,5 +113,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//nav/ul/li[3]/a</value>
+      <webElementGuid>2eb3afe3-6bf3-48b8-b87c-ccd7761a4779</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

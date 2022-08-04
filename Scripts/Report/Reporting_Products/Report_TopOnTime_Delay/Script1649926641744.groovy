@@ -30,9 +30,13 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Report_ReportTopOnTIme_
 
 WebUI.click(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/a_Login'))
 
+WebUI.maximizeWindow()
+
 WebUI.focus(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/a_Report'))
 
 WebUI.click(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/a_Report'))
+
+WebUI.focus(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/a_Top OnTimeDelay'))
 
 WebUI.click(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/a_Top OnTimeDelay'))
 
@@ -53,7 +57,7 @@ WebUI.sendKeys(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/in
 
 WebUI.click(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/div_Marketing_multiselect__select'))
 
-WebUI.setText(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/input_Marketing_customer'), 'sidik@szetovimalla.com')
+WebUI.setText(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/input_Marketing_customer'), 'sidik')
 
 WebUI.sendKeys(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/input_Marketing_customer'), Keys.chord(Keys.ENTER))
 
@@ -63,7 +67,7 @@ WebUI.sendKeys(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/in
 
 WebUI.click(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/div_Kintan dwira'))
 
-WebUI.setText(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/input_Marketing_customer'), 'kofyifilme@yevme.com')
+WebUI.setText(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/input_Marketing_customer'), 'kofyifilme')
 
 WebUI.sendKeys(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/input_Marketing_customer'), Keys.chord(Keys.ENTER))
 
@@ -136,6 +140,8 @@ WebUI.click(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/a_Fil
 WebUI.click(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/button_Preview'))
 
 WebUI.click(findTestObject('Object Repository/Report_ReportTopOnTIme_Delay/a_Export Excel'))
+
+WebUI.delay(4)
 
 WebUI.closeBrowser()
 

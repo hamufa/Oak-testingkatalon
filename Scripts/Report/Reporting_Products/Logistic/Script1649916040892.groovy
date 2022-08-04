@@ -33,6 +33,8 @@ WebUI.focus(findTestObject('Object Repository/Report Logistic Repo/a_Report'))
 
 WebUI.click(findTestObject('Object Repository/Report Logistic Repo/a_Report'))
 
+WebUI.focus(findTestObject('Object Repository/Report Logistic Repo/a_Logistic'))
+
 WebUI.click(findTestObject('Object Repository/Report Logistic Repo/a_Logistic'))
 
 WebUI.click(findTestObject('Object Repository/Report Logistic Repo/span_All'))
@@ -175,11 +177,9 @@ WebUI.click(findTestObject('Object Repository/Report Logistic Repo/a_2'))
 
 WebUI.click(findTestObject('Object Repository/Report Logistic Repo/a_Previous'))
 
-WebUI.click(findTestObject('Object Repository/Report Logistic Repo/a_Next'))
-
 WebUI.click(findTestObject('Object Repository/Report Logistic Repo/button_Preview'))
 
-WebUI.click(findTestObject('Object Repository/Report Logistic Repo/a_Export to Excel'))
+WebUI.click(findTestObject('Object Repository/Report Logistic Repo/a_Next'))
 
 WebUI.click(findTestObject('Object Repository/Report Logistic Repo/span_All_1'))
 
@@ -198,6 +198,8 @@ WebUI.click(findTestObject('Object Repository/Report Logistic Repo/th_Selling Da
 WebUI.click(findTestObject('Object Repository/Report Logistic Repo/button_Preview'))
 
 WebUI.click(findTestObject('Object Repository/Report Logistic Repo/a_Export to Excel'))
+
+WebUI.delay(4)
 
 WebUI.closeBrowser()
 

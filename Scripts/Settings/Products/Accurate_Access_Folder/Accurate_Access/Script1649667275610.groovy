@@ -35,6 +35,8 @@ WebUI.click(findTestObject('Settings_Accurate_Access/a_Setting'))
 
 WebUI.click(findTestObject('Settings_Accurate_Access/span_Accurate Access'))
 
+WebUI.click(findTestObject('Settings_Accurate_Access/span_Accurate Access'))
+
 WebUI.click(findTestObject('Settings_Accurate_Access/button_Create New'))
 
 WebUI.setText(findTestObject('Settings_Accurate_Access/input__name'), '22222')
@@ -116,6 +118,8 @@ WebUI.click(findTestObject('Settings_Accurate_Access/button_Delete'))
 WebUI.click(findTestObject('Settings_Accurate_Access/yes delete it 3'))
 
 WebUI.click(findTestObject('Settings_Accurate_Access/button_OK'))
+
+WebUI.delay(4)
 
 WebUI.closeBrowser()
 

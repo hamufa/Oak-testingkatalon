@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[2]/aside/div/div[1]/nav/ul/li[3]/ul/li[2]/a</value>
+         <value>/html/body/div[2]/aside/div/div[1]/nav/ul/li[4]/ul/li[2]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>9acac3ac-2870-4e64-957e-e677902754a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>waves-effect waves-dark</value>
+      <webElementGuid>017528e4-4d6d-4f01-95a0-d75f1f011283</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://dummy.oaktree.id/admin/master_airline</value>
+      <webElementGuid>784c351a-8bb8-4554-a152-dc452caaf154</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>b6913370-43a1-43ff-ae94-5835ad1f144e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,6 +58,7 @@
 											
 											Airlines
 										</value>
+      <webElementGuid>67f46522-5c04-4699-a5d6-765f0bb8fa5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarnav&quot;)/li[@class=&quot;active&quot;]/ul[@class=&quot;collapse in&quot;]/li[2]/a[@class=&quot;waves-effect waves-dark&quot;]</value>
+      <webElementGuid>3fc81cde-13a1-47a9-ac84-28191eeafccc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -68,6 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='sidebarnav']/li[3]/ul/li[2]/a</value>
+      <webElementGuid>f8ff902f-c6e5-48e9-b9d6-b3b44d08f0d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Agent'])[1]/following::a[1]</value>
+      <webElementGuid>771af8f9-6e96-445f-936e-b1e38e88f167</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Master'])[1]/following::a[2]</value>
+      <webElementGuid>fa9761f2-e680-48cf-9ad0-9fbdd52b95a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Auto Number'])[1]/preceding::a[1]</value>
+      <webElementGuid>8f3d3508-066d-4246-a20b-4b227e8b16cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://dummy.oaktree.id/admin/master_airline')]</value>
+      <webElementGuid>1785487f-5992-43e5-a246-7fbc69f5e8c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,5 +114,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/ul/li[2]/a</value>
+      <webElementGuid>90d50e18-3d35-47e2-9d3e-60594595dc10</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

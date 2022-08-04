@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -29,6 +30,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Report_ListTransaction/
     'PLGTm/4mhzBK/fiUUkrWmQ==')
 
 WebUI.click(findTestObject('Object Repository/Report_ListTransaction/Page_Login Panel/a_Login'))
+
+WebUI.maximizeWindow()
 
 WebUI.focus(findTestObject('Object Repository/Report_ListTransaction/Page_Dashboard - Rimba Ananta Vikasa Indonesia/a_Report'))
 
@@ -185,8 +188,8 @@ WebUI.click(findTestObject('Object Repository/Report_ListTransaction/Page_Report
 
 WebUI.click(findTestObject('Object Repository/Report_ListTransaction/Page_Report List Transaction -/a_Filter Data'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Report_ListTransaction/Page_Report List Transaction -/select_CustomMonthlyYearly'),
-	'monthlyData', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Report_ListTransaction/Page_Report List Transaction -/select_CustomMonthlyYearly'), 
+    'monthlyData', true)
 
 WebUI.click(findTestObject('Object Repository/Report_ListTransaction/Page_Report List Transaction -/input_Year_date'))
 
@@ -261,6 +264,8 @@ WebUI.click(findTestObject('Object Repository/Report_ListTransaction/Page_Report
 WebUI.click(findTestObject('Object Repository/Report_ListTransaction/Page_Report List Transaction -/button_Preview'))
 
 WebUI.click(findTestObject('Object Repository/Report_ListTransaction/Page_Report List Transaction -/a_Export Excel'))
+
+WebUI.delay(4)
 
 WebUI.closeBrowser()
 

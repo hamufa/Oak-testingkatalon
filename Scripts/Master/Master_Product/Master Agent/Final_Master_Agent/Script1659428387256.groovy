@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -26,7 +27,13 @@ WebUI.setEncryptedText(findTestObject('Master/Master_Agent/Page_Login Panel/inpu
 
 WebUI.click(findTestObject('Master/Master_Agent/Page_Login Panel/a_Login'))
 
+WebUI.delay(12)
+
+WebUI.focus(findTestObject('Master/Master_Agent/Page_Dashboard - Kelas Karyawan/a_Master'))
+
 WebUI.click(findTestObject('Master/Master_Agent/Page_Dashboard - Kelas Karyawan/a_Master'))
+
+WebUI.focus(findTestObject('Master/Master_Agent/Page_Dashboard - Kelas Karyawan/a_Agent'))
 
 WebUI.click(findTestObject('Master/Master_Agent/Page_Dashboard - Kelas Karyawan/a_Agent'))
 
@@ -38,7 +45,7 @@ WebUI.click(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyaw
 
 WebUI.click(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyawan/button_Cancel'))
 
-WebUI.click(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyawan/button_Yes, close it'))
+WebUI.click(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyawan/Yes close'))
 
 WebUI.click(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyawan/a_Create New'))
 
@@ -60,17 +67,18 @@ WebUI.setText(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Kary
 
 WebUI.click(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyawan/span_Indonesia_select2-selection__arrow'))
 
-WebUI.setText(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyawan/input_Yes, close it_select2-search__field'), 
-    'Ireland')
+WebUI.setText(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyawan/input country'), 'Ireland')
 
-WebUI.sendKeys(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyawan/input_Yes, close it_select2-search__field'), 
-    Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyawan/input country'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyawan/button_Save'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyawan/button_Action_btn btn-action mr-1'))
+WebUI.setText(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyawan/input_Yes, close it_select2-search__field'), 
+    '222')
+
+WebUI.click(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyawan/button edit baru'))
 
 WebUI.click(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyawan/div_Edit AgentName  Country  AfghanistanAlb_fa7174'))
 
@@ -100,13 +108,15 @@ WebUI.setText(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Kary
 
 WebUI.click(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyawan/span_Ireland_select2-selection__arrow'))
 
-WebUI.setText(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyawan/input_Yes, close it_select2-search__field'), 
-    'Jamaica')
+WebUI.setText(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyawan/Input_Text_Country'), 'Jamaica')
 
-WebUI.sendKeys(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyawan/input_Yes, close it_select2-search__field'), 
-    Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
+WebUI.sendKeys(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyawan/Input_Text_Country'), Keys.chord(Keys.ARROW_DOWN, 
+        Keys.ENTER))
 
 WebUI.click(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyawan/button_Save'))
+
+WebUI.setText(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyawan/input_Yes, close it_select2-search__field'), 
+    '3333')
 
 WebUI.click(findTestObject('Master/Master_Agent/Page_Master Agent - Kelas Karyawan/button_Action_btn btn-action mr-1'))
 

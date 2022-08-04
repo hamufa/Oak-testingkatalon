@@ -27,6 +27,8 @@ WebUI.setEncryptedText(findTestObject('Master/Master_Authorized/input_Welcome to
 
 WebUI.click(findTestObject('Master/Master_Authorized/a_Login'))
 
+WebUI.maximizeWindow()
+
 WebUI.focus(findTestObject('Master/Master_Authorized/a_Master'))
 
 WebUI.click(findTestObject('Master/Master_Authorized/a_Master'))
@@ -128,6 +130,8 @@ WebUI.click(findTestObject('Master/Master_Authorized/button_Cancel_1 - Copy (1)'
 WebUI.click(findTestObject('Master/Master_Authorized/button_Action_btn btn-action'))
 
 WebUI.click(findTestObject('Master/Master_Authorized/button_Yes, close it - Copy (1)'))
+
+WebUI.delay(4)
 
 WebUI.closeBrowser()
 

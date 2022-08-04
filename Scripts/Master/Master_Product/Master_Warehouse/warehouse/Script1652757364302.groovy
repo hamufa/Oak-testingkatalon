@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -27,6 +28,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Master/Master_Warehouse
     'PLGTm/4mhzBK/fiUUkrWmQ==')
 
 WebUI.click(findTestObject('Object Repository/Master/Master_Warehouse/Page_Login Panel/a_Login'))
+
+WebUI.maximizeWindow()
 
 WebUI.focus(findTestObject('Object Repository/Master/Master_Warehouse/Page_Dashboard - Rimba Ananta Vikasa Indonesia/a_Master'))
 
@@ -95,6 +98,8 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/Master/Master_Ware
     3)
 
 WebUI.click(findTestObject('Object Repository/Master/Master_Warehouse/Page_Master Warehouse - Rimba Ananta Vikasa_cf439f/button_OK'))
+
+WebUI.delay(4)
 
 WebUI.closeBrowser()
 

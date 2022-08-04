@@ -29,9 +29,13 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Report_Project/input_We
 
 WebUI.click(findTestObject('Object Repository/Report_Project/a_Login'))
 
+WebUI.maximizeWindow()
+
 WebUI.focus(findTestObject('Object Repository/Report_Project/a_Report'))
 
 WebUI.click(findTestObject('Object Repository/Report_Project/a_Report'))
+
+WebUI.focus(findTestObject('Object Repository/Report_Project/a_Project'))
 
 WebUI.click(findTestObject('Object Repository/Report_Project/a_Project'))
 
@@ -272,6 +276,8 @@ WebUI.click(findTestObject('Object Repository/Report_Project/a_Filter'))
 WebUI.click(findTestObject('Object Repository/Report_Project/button_Preview'))
 
 WebUI.click(findTestObject('Object Repository/Report_Project/a_Export to Excel'))
+
+WebUI.delay(4)
 
 WebUI.closeBrowser()
 

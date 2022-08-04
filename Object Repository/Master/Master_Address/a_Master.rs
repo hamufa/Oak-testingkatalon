@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;sidebarnav&quot;]/li[5]/a</value>
+         <value>//*[@id=&quot;sidebarnav&quot;]/li[4]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>e5398de7-0ab3-4053-bedf-798a5c67c59c</webElementGuid>
+      <webElementGuid>690d3cad-86d3-4eba-9770-f62f81726d9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>has-arrow waves-effect waves-dark</value>
-      <webElementGuid>ac9d127f-a64f-45fe-9700-072357df8541</webElementGuid>
+      <webElementGuid>0adc773d-47a9-4aa5-bb7d-02581d57b319</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>693a238d-1d88-41bd-969b-cc5229392160</webElementGuid>
+      <webElementGuid>b363fa92-72ae-42dc-bd94-3fea86192521</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>76ce396c-7d03-4b8d-8bf1-a585ca522750</webElementGuid>
+      <webElementGuid>986a3128-5e19-4e11-98db-6e960edff11f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
 									
 								
 								Master</value>
-      <webElementGuid>150c66ea-4ee9-4007-8fab-ca2493ecd4e0</webElementGuid>
+      <webElementGuid>70b57a41-e6e3-4b3f-8203-4a7e6cc6ede3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarnav&quot;)/li[3]/a[@class=&quot;has-arrow waves-effect waves-dark&quot;]</value>
-      <webElementGuid>697b0ff1-40a1-4731-99c5-97a91b30d2ce</webElementGuid>
+      <webElementGuid>f3762058-addc-463b-b9ff-14aacdcb244e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='sidebarnav']/li[3]/a</value>
-      <webElementGuid>4fe3a4ff-7a06-4445-89fc-4d92bb7524c1</webElementGuid>
+      <webElementGuid>3f34a4bb-4dcd-44d4-b68a-6c02748b72a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft Transaction'])[1]/following::a[1]</value>
-      <webElementGuid>da938691-8334-41ce-a4dc-fc69ce9eaca5</webElementGuid>
+      <webElementGuid>58d4aa36-3315-4f1b-84e0-7158cce2c3cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Activity Log'])[1]/following::a[2]</value>
-      <webElementGuid>26bb95ff-a690-42cd-98b9-d6570f66e4d9</webElementGuid>
+      <webElementGuid>4527e39a-b041-415b-90e6-e44134d195a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Agent'])[1]/preceding::a[1]</value>
-      <webElementGuid>3c46462b-034b-47b9-a08a-c6f185ea553a</webElementGuid>
+      <webElementGuid>893c55fb-28db-41af-b381-b00eeb37dc59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[4]</value>
-      <webElementGuid>9032472f-a3fa-41e9-a290-aa3acc2fa7fd</webElementGuid>
+      <webElementGuid>0c4541af-1548-47bb-ba86-7f4624db8a6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +113,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//nav/ul/li[3]/a</value>
-      <webElementGuid>7209ebc3-c125-4177-a278-b47d55a00829</webElementGuid>
+      <webElementGuid>5ea79106-062e-4abb-b424-776d471320fc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

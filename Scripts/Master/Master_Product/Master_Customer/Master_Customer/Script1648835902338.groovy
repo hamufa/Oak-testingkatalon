@@ -27,6 +27,8 @@ WebUI.setEncryptedText(findTestObject('Master/Master_Customer/Page_Login Panel/i
 
 WebUI.click(findTestObject('Master/Master_Customer/Page_Login Panel/a_Login'))
 
+WebUI.maximizeWindow()
+
 WebUI.focus(findTestObject('Master/Master_Customer/Page_Dashboard - Kelas Karyawan/a_Master'))
 
 WebUI.click(findTestObject('Master/Master_Customer/Page_Dashboard - Kelas Karyawan/a_Master'))
@@ -514,12 +516,6 @@ WebUI.delay(8)
 
 WebUI.click(findTestObject('Master/Master_Customer/Page_Master Customer - Kelas Karyawan/a_Sync'))
 
-WebUI.click(findTestObject('Master/Master_Customer/Page_Master Customer - Kelas Karyawan/button_Sync'))
-
-WebUI.delay(20)
-
-WebUI.click(findTestObject('Master/Master_Customer/Page_Master Customer - Kelas Karyawan/a_Sync'))
-
 WebUI.click(findTestObject('Master/Master_Customer/Page_Master Customer - Kelas Karyawan/label_Skip data'))
 
 WebUI.click(findTestObject('Master/Master_Customer/Page_Master Customer - Kelas Karyawan/button_Cancel_1'))
@@ -528,17 +524,9 @@ WebUI.click(findTestObject('Master/Master_Customer/Page_Master Customer - Kelas 
 
 WebUI.click(findTestObject('Master/Master_Customer/Page_Master Customer - Kelas Karyawan/button_Cancel_1'))
 
-WebUI.click(findTestObject('Master/Master_Customer/Page_Master Customer - Kelas Karyawan/button_Yes, close it'))
+WebUI.click(findTestObject('Master/Master_Customer/Page_Master Customer - Kelas Karyawan/Intinya kofirmasi'))
 
 WebUI.delay(8)
-
-WebUI.click(findTestObject('Master/Master_Customer/Page_Master Customer - Kelas Karyawan/a_Sync'))
-
-WebUI.click(findTestObject('Master/Master_Customer/Page_Master Customer - Kelas Karyawan/label_Skip data'))
-
-WebUI.click(findTestObject('Master/Master_Customer/Page_Master Customer - Kelas Karyawan/button_Sync'))
-
-WebUI.delay(20)
 
 WebUI.click(findTestObject('Master/Master_Customer/Page_Master Customer - Kelas Karyawan/a_Active_btn btn-action'))
 

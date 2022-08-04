@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -26,9 +27,13 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Report_Daily/input_Welc
 
 WebUI.click(findTestObject('Object Repository/Report_Daily/a_Login'))
 
+WebUI.maximizeWindow()
+
 WebUI.focus(findTestObject('Object Repository/Report_Daily/a_Report'))
 
 WebUI.click(findTestObject('Object Repository/Report_Daily/a_Report'))
+
+WebUI.focus(findTestObject('Object Repository/Report_Daily/a_Daily'))
 
 WebUI.click(findTestObject('Object Repository/Report_Daily/a_Daily'))
 
@@ -63,6 +68,8 @@ WebUI.click(findTestObject('Object Repository/Report_Daily/th_'))
 WebUI.click(findTestObject('Object Repository/Report_Daily/td_17'))
 
 WebUI.click(findTestObject('Object Repository/Report_Daily/a_Filter'))
+
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

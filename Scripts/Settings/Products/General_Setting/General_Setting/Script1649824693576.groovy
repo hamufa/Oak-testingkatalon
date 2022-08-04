@@ -33,6 +33,8 @@ WebUI.focus(findTestObject('General_Setting/a_Setting'))
 
 WebUI.click(findTestObject('General_Setting/a_Setting'))
 
+WebUI.focus(findTestObject('Object Repository/General_Setting/a_General Setting'))
+
 WebUI.click(findTestObject('Object Repository/General_Setting/a_General Setting'))
 
 WebUI.click(findTestObject('Object Repository/General_Setting/span_Upload'))
@@ -60,6 +62,8 @@ WebUI.click(findTestObject('General_Setting/label_Enable_Jobfile'))
 WebUI.click(findTestObject('General_Setting/label_Disable_Detail_Jobfile'))
 
 WebUI.click(findTestObject('General_Setting/label_Enable_Detail_Jobfile'))
+
+WebUI.delay(4)
 
 WebUI.closeBrowser()
 

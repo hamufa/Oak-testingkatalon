@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[2]/aside/div/div[1]/nav/ul/li[5]/a</value>
+         <value>/html/body/div[2]/aside/div/div[1]/nav/ul/li[4]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>78fb0334-0a7a-4864-b01e-b994e8dd3e62</webElementGuid>
+      <webElementGuid>6a55ef40-16e6-48fa-80ef-36b1151bf7af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>has-arrow waves-effect waves-dark</value>
-      <webElementGuid>100152f7-675d-4ea0-a1ed-740d05132c86</webElementGuid>
+      <webElementGuid>6df926ab-2060-45ad-9282-a892becfae30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>21cd534a-b231-4bc6-9a92-79777cb7166e</webElementGuid>
+      <webElementGuid>b95d9a08-bff3-486e-953a-43720c964641</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e897a5fa-4f1d-4198-ac8f-db803545fa92</webElementGuid>
+      <webElementGuid>224578f5-c8b8-408b-84d6-9d101e97c884</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
 									
 								
 								Master</value>
-      <webElementGuid>e9f56440-581f-4867-984e-15e65a1b5976</webElementGuid>
+      <webElementGuid>2677e72b-a494-4a3f-83b2-de285a1beb98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,6 +65,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarnav&quot;)/li[3]/a[@class=&quot;has-arrow waves-effect waves-dark&quot;]</value>
-      <webElementGuid>25062020-9bd3-4e71-a9b5-532929e0c4a2</webElementGuid>
+      <webElementGuid>7f85c207-d967-4f43-93b3-bc0aa9c2b4d3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -14,27 +14,32 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://dummy.oaktree.id/admin')
 
-WebUI.setText(findTestObject('Master/Final_Master_AirLine/Page_Login Panel/input_Welcome to Oaktree_email_user'), 
-    'Cricket@rimbahouse.com')
+WebUI.setText(findTestObject('Master/Final_Master_AirLine/Page_Login Panel/input_Welcome to Oaktree_email_user'), 'Cricket@rimbahouse.com')
 
 WebUI.setEncryptedText(findTestObject('Master/Final_Master_AirLine/Page_Login Panel/input_Welcome to Oaktree_password'), 
     'rEXBpEkj5ITeVrsAMSY1Rw==')
 
 WebUI.click(findTestObject('Master/Final_Master_AirLine/Page_Login Panel/a_Login'))
 
+WebUI.focus(findTestObject('Master/Final_Master_AirLine/Page_Dashboard - Kelas Karyawan/a_Master'))
+
 WebUI.click(findTestObject('Master/Final_Master_AirLine/Page_Dashboard - Kelas Karyawan/a_Master'))
+
+WebUI.focus(findTestObject('Master/Final_Master_AirLine/Page_Dashboard - Kelas Karyawan/a_Airlines'))
 
 WebUI.click(findTestObject('Master/Final_Master_AirLine/Page_Dashboard - Kelas Karyawan/a_Airlines'))
 
-WebUI.setText(findTestObject('Master/Final_Master_AirLine/Page_Master Airline - Kelas Karyawan/input'), '222')
+WebUI.setText(findTestObject('Master/Final_Master_AirLine/Page_Master Airline - Kelas Karyawan/input'), '666')
 
-WebUI.sendKeys(findTestObject('Master/Final_Master_AirLine/Page_Master Airline - Kelas Karyawan/input'), Keys.chord(
-        Keys.ENTER))
+WebUI.sendKeys(findTestObject('Master/Final_Master_AirLine/Page_Master Airline - Kelas Karyawan/input'), Keys.chord(Keys.ENTER))
+
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 

@@ -6,10 +6,6 @@
    <elementGuidId>e6a4df04-b896-430c-baff-a68a99fc7469</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[2]/aside/div/div[1]/nav/ul/li[5]/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@href = '#' and (text() = '
 								
@@ -19,6 +15,10 @@
       </entry>
       <entry>
          <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/aside/div/div[1]/nav/ul/li[5]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

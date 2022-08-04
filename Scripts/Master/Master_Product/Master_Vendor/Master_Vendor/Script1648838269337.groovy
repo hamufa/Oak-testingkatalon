@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -25,6 +26,8 @@ WebUI.setText(findTestObject('Master/Master_Vendor/Page_Login Panel/input_Welcom
 WebUI.setEncryptedText(findTestObject('Master/Master_Vendor/Page_Login Panel/input_Welcome to Oaktree_password'), 'rEXBpEkj5ITeVrsAMSY1Rw==')
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Login Panel/a_Login'))
+
+WebUI.maximizeWindow()
 
 WebUI.focus(findTestObject('Master/Master_Vendor/Page_Dashboard - Kelas Karyawan/a_Master'))
 
@@ -396,27 +399,13 @@ WebUI.delay(8)
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Update Vendor - Kelas Karyawan/label_Synchronize with accurate'))
 
-WebUI.click(findTestObject('Master/Master_Vendor/Page_Master Vendor - Kelas Karyawan/button_Save_Sync'))
-
-WebUI.delay(20)
-
-WebUI.click(findTestObject('Master/Master_Vendor/Page_Update Vendor - Kelas Karyawan/label_Synchronize with accurate'))
-
-WebUI.click(findTestObject('Master/Master_Vendor/Page_Master Vendor - Kelas Karyawan/label_Skip data'))
-
-WebUI.click(findTestObject('Master/Master_Vendor/Page_Master Vendor - Kelas Karyawan/button_Save_Sync'))
-
-WebUI.delay(20)
-
-WebUI.click(findTestObject('Master/Master_Vendor/Page_Update Vendor - Kelas Karyawan/label_Synchronize with accurate'))
-
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Master Vendor - Kelas Karyawan/button_Cancel_sync'))
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Master Vendor - Kelas Karyawan/button_Following_Cancel_sync'))
 
 WebUI.click(findTestObject('Master/Master_Vendor/Page_Master Vendor - Kelas Karyawan/button_Cancel_sync'))
 
-WebUI.click(findTestObject('Master/Master_Customer/Page_Master Customer - Kelas Karyawan/button_Yes, close it'))
+WebUI.click(findTestObject('Master/Master_Vendor/Page_Master Vendor - Kelas Karyawan/Yess close it broo'))
 
 WebUI.delay(7)
 

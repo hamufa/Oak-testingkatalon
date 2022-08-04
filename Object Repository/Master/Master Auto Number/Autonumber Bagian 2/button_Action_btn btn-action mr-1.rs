@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Action_btn btn-action mr-1</name>
+   <tag></tag>
+   <elementGuidId>edacd861-b346-4c8f-9d66-ab34e9f4df39</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@onclick='editCounterPeriod(665)']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.action-counter-period > button.btn.btn-action.mr-1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>50f6261b-f886-452a-9fbd-1ccc8732060b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-action mr-1</value>
+      <webElementGuid>d8f46553-3a1d-4975-94d5-4b8b5d7f9ffc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>View Detail</value>
+      <webElementGuid>79591856-26b3-41c5-acb4-39712711b934</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>editCounterPeriod(665)</value>
+      <webElementGuid>dc42c6f8-8bb6-44cc-9b70-66356634286f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;body_counter_period&quot;)/tr[1]/td[@class=&quot;action-counter-period&quot;]/button[@class=&quot;btn btn-action mr-1&quot;]</value>
+      <webElementGuid>4e5631d4-51ca-48be-903e-f543b4fe84c7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@onclick='editCounterPeriod(665)']</value>
+      <webElementGuid>f7fbd6f8-d3a1-4195-9179-f1d5fccb9431</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='body_counter_period']/tr/td[4]/button</value>
+      <webElementGuid>bdee9db2-5636-4d22-aab8-0d3147e01d5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[2]/following::button[1]</value>
+      <webElementGuid>d5c11af5-399f-4acc-9e05-eec8ee48a438</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Counter'])[2]/following::button[1]</value>
+      <webElementGuid>f70690db-0f9f-42a6-a11d-9a9d03fe073c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure want to close this window?'])[1]/preceding::button[1]</value>
+      <webElementGuid>7bb259b1-6245-48c0-9104-1400aebdf8f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='!'])[1]/preceding::button[1]</value>
+      <webElementGuid>fbe3c403-55f6-4a5f-b58a-6e24ed7a1d82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]/button</value>
+      <webElementGuid>6ca5ca14-f8c6-4d44-9f79-7156b9099f11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@title = 'View Detail']</value>
+      <webElementGuid>b4900aef-2ba5-4a9b-b615-65787079b62c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

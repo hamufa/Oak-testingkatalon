@@ -32,6 +32,8 @@ WebUI.focus(findTestObject('Object Repository/Setting_Notification/a_Setting'))
 
 WebUI.click(findTestObject('Object Repository/Setting_Notification/a_Setting'))
 
+WebUI.focus(findTestObject('Object Repository/Setting_Notification/a_Notification'))
+
 WebUI.click(findTestObject('Object Repository/Setting_Notification/a_Notification'))
 
 WebUI.click(findTestObject('Object Repository/Setting_Notification/a_Create New'))
@@ -149,6 +151,8 @@ WebUI.click(findTestObject('Setting_Notification/DIKATERAKHIR'))
 WebUI.click(findTestObject('Object Repository/Setting_Notification/button_Yes, delete it'))
 
 WebUI.click(findTestObject('Object Repository/Setting_Notification/button_OK'))
+
+WebUI.delay(4)
 
 WebUI.closeBrowser()
 

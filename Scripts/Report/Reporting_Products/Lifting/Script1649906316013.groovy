@@ -33,6 +33,8 @@ WebUI.focus(findTestObject('Object Repository/Report_Lifting/a_Report'))
 
 WebUI.click(findTestObject('Object Repository/Report_Lifting/a_Report'))
 
+WebUI.focus(findTestObject('Object Repository/Report_Lifting/a_Lifting'))
+
 WebUI.click(findTestObject('Object Repository/Report_Lifting/a_Lifting'))
 
 WebUI.click(findTestObject('Object Repository/Report_Lifting/ul_Sales_select2-selection__rendered'))
@@ -150,7 +152,6 @@ WebUI.click(findTestObject('Object Repository/Report_Lifting/a_Export to Excel')
 WebUI.delay(5)
 
 //WebUI.click(findTestObject('Report_Lifting/span_Loading'))
-
 WebUI.click(findTestObject('Object Repository/Report_Lifting/span_'))
 
 WebUI.click(findTestObject('Object Repository/Report_Lifting/button_Preview'))
@@ -219,6 +220,8 @@ WebUI.click(findTestObject('Object Repository/Report_Lifting/a_Filter'))
 WebUI.click(findTestObject('Object Repository/Report_Lifting/button_Preview'))
 
 WebUI.click(findTestObject('Object Repository/Report_Lifting/a_Export to Excel'))
+
+WebUI.delay(4)
 
 WebUI.closeBrowser()
 

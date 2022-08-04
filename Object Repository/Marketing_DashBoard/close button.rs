@@ -11,7 +11,8 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;__BVID__39___BV_modal_header_&quot;]/button</value>
+         <value>/html/body/div[2]/div[1]/div/div/header/button
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
