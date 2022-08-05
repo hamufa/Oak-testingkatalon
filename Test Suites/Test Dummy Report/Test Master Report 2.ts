@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Test Dummy Setting</name>
+   <name>Test Master Report 2</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,26 +10,33 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>6e236a9f-2689-456d-9373-006ad32b7b1e</testSuiteGuid>
+   <testSuiteGuid>f5f5ec43-202a-4829-9feb-dc63ea2f4127</testSuiteGuid>
    <testCaseLink>
-      <guid>62b04082-a6af-4ef4-9578-9e3b05bd88c3</guid>
+      <guid>185e8a98-8ede-4633-ad5e-a65dfd2df594</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Settings/Products/Accurate_Access_Folder/Accurate_Access</testCaseId>
+      <testCaseId>Test Cases/Report/Reporting_Products/Logistic</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d04fa60c-79a7-4929-bb57-c2314d45d96d</guid>
+      <guid>3f1b5658-7d60-406e-aef6-c94cd92cf90c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Settings/Products/Default_party/Default_Party</testCaseId>
+      <testCaseId>Test Cases/Report/Reporting_Products/Project</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b9866abb-02d8-4f46-86a3-2c1631b9ecdb</guid>
+      <guid>eed9f64e-b9dd-4e0d-9081-73432d501deb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Settings/Products/Group_Access/Group_Access</testCaseId>
+      <testCaseId>Test Cases/Report/Reporting_Products/Report_TopOnTime_Delay</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7d0aa76b-3d40-47f9-8aab-1ab68aa6a341</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Report/Reporting_Products/Statement_Of_Account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

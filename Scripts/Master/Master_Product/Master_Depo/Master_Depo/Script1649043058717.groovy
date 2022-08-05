@@ -87,6 +87,8 @@ WebUI.click(findTestObject('Master/Master_Depo/Page_Master Depo - Kelas Karyawan
 
 WebUI.click(findTestObject('Master/Master_Depo/Page_Master Depo - Kelas Karyawan/oke close'))
 
+WebUI.delay(8)
+
 WebUI.setText(findTestObject('Master/Master_Depo/Page_Master Depo - Kelas Karyawan/input'), '555')
 
 WebUI.click(findTestObject('Master/Master_Depo/Page_Master Depo - Kelas Karyawan/button_Action_btn btn-action'))

@@ -40,9 +40,9 @@ WebUI.click(findTestObject('Object Repository/Setting_User/a_Create User'))
 
 WebUI.uploadFile(findTestObject('Setting_User/input_Profile Picture_fname'), 'C:\\Users\\tanto\\git\\Oak-testingkatalon\\Upload file test\\candy.png')
 
-WebUI.setText(findTestObject('Object Repository/Setting_User/input__name_user'), 'AdeA')
+WebUI.setText(findTestObject('Object Repository/Setting_User/input__name_user'), 'asssq')
 
-WebUI.setText(findTestObject('Object Repository/Setting_User/input__email_user'), 'Wirausaha@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Setting_User/input__email_user'), 'Wiratyausaha@gmail.com')
 
 WebUI.setText(findTestObject('Object Repository/Setting_User/input__mobile_user'), 'fdsfsd')
 
@@ -72,7 +72,7 @@ WebUI.uploadFile(findTestObject('Setting_User/input_Profile Picture_fname'), 'C:
 
 WebUI.click(findTestObject('Object Repository/Setting_User/div_Profile PictureName  Email  Mobile Phon_7b2fcb'))
 
-WebUI.setText(findTestObject('Object Repository/Setting_User/input__name_user'), 'wirawirandang')
+WebUI.setText(findTestObject('Object Repository/Setting_User/input__name_user'), 'amiyai')
 
 WebUI.click(findTestObject('Object Repository/Setting_User/div_Profile PictureName  Email  Mobile Phon_7b2fcb'))
 
@@ -126,7 +126,7 @@ WebUI.click(findTestObject('Setting_User/button_Yes, close it_Edit'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Setting_User/input_Search'), 'wirawirandang')
+WebUI.setText(findTestObject('Setting_User/input_Search'), 'amiyai')
 
 WebUI.click(findTestObject('Object Repository/Setting_User/button_Active_btn btn-action'))
 

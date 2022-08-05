@@ -130,7 +130,7 @@ WebUI.click(findTestObject('Master/Master_Item/Page_Master Item - Kelas Karyawan
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Master/Master_Item/Page_Master Item - Kelas Karyawan/button_OK'))
+//WebUI.click(findTestObject('Master/Master_Item/Page_Master Item - Kelas Karyawan/button_OK'))
 
 WebUI.setText(findTestObject('Master/Master_Item/Page_Master Item - Kelas Karyawan/input'), '33333')
 

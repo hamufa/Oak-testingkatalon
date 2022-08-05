@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Test Dummy Setting</name>
+   <name>Dummy Modul Setting 2</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,26 +10,26 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>6e236a9f-2689-456d-9373-006ad32b7b1e</testSuiteGuid>
+   <testSuiteGuid>ab8f8486-821f-48d5-8f27-7325c812cbd0</testSuiteGuid>
    <testCaseLink>
-      <guid>62b04082-a6af-4ef4-9578-9e3b05bd88c3</guid>
+      <guid>670375d2-2767-4307-8799-947072dbbf65</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Settings/Products/Accurate_Access_Folder/Accurate_Access</testCaseId>
+      <testCaseId>Test Cases/Settings/Products/User/User</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d04fa60c-79a7-4929-bb57-c2314d45d96d</guid>
+      <guid>af185997-9f55-4001-bea6-5a12879dd2bb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Settings/Products/Default_party/Default_Party</testCaseId>
+      <testCaseId>Test Cases/Settings/Products/General_Setting/General_Setting</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b9866abb-02d8-4f46-86a3-2c1631b9ecdb</guid>
+      <guid>a25e9600-df88-469d-94fc-c049ed5e4829</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Settings/Products/Group_Access/Group_Access</testCaseId>
+      <testCaseId>Test Cases/Settings/Products/Notification/Notification</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

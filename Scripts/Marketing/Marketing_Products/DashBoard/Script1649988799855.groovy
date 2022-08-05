@@ -57,13 +57,15 @@ WebUI.click(findTestObject('Object Repository/Marketing_DashBoard/span_2020'))
 
 WebUI.click(findTestObject('Object Repository/Marketing_DashBoard/span_Info Inputed_fc-icon fc-icon-chevron-left'))
 
+WebUI.focus(findTestObject('Object Repository/Marketing_DashBoard/button_today'))
+
+WebUI.click(findTestObject('Object Repository/Marketing_DashBoard/button_today'))
+
 WebUI.focus(findTestObject('Object Repository/Marketing_DashBoard/div_329a dwira'))
 
 WebUI.click(findTestObject('Object Repository/Marketing_DashBoard/div_329a dwira'))
 
 WebUI.click(findTestObject('Marketing_DashBoard/close button'))
-
-WebUI.click(findTestObject('Object Repository/Marketing_DashBoard/button_today'))
 
 WebUI.closeBrowser()
 

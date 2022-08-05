@@ -12,38 +12,38 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>0c4c3bb3-6f3a-44bb-8757-1df1a3a7dcbc</testSuiteGuid>
    <testCaseLink>
-      <guid>36f2bca0-7c4f-4092-9677-2998bcfa1789</guid>
+      <guid>e5c46a0f-6dc9-4e18-95f6-094b74af079f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Master/Master_Product/Master_Item/Master_Item</testCaseId>
+      <testCaseId>Test Cases/Master/Master_Product/Master_Warehouse/warehouse</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9dae2a4d-f111-4ed0-b9cc-ecf8e24bb2fb</guid>
+      <guid>7065416f-af69-4a9d-9719-3418842a00e4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Master/Master_Product/Master_Port/Master_Port</testCaseId>
+      <testCaseId>Test Cases/Master/Master_Product/Master_Term/Master_Term</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>64216325-02b9-4382-ae88-ec98163f2573</guid>
+      <guid>2822a1ad-8d67-40ab-b4bc-2031a454934a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Master/Master_Product/Master_PPJK/Master_PPJK</testCaseId>
+      <testCaseId>Test Cases/Master/Master_Product/Master_TAX/Master_Tax</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>17fb929d-22e7-473e-8f33-0991b5ff5080</guid>
+      <guid>a0e77555-ac46-46fd-a4f7-bfcd887c093d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Master/Master_Product/Master_Truck/Master_Truck</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b9fdb335-d718-4ef0-b686-28b67286efbc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Master/Master_Product/Master_Reason/Master_Reason</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>efb534e0-ffad-4f94-8e7f-36071051fb3c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Master/Master_Product/Master_shipping/Master_shipping</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

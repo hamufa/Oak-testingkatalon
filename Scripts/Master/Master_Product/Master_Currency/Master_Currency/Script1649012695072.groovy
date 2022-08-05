@@ -62,8 +62,6 @@ WebUI.click(findTestObject('Master/Master_Currency/Page_Master Currency - Kelas 
 
 WebUI.click(findTestObject('Master/Master_Currency/Page_Master Currency - Kelas Karyawan/button_Yes'))
 
-WebUI.click(findTestObject('Master/Master_Currency/Page_Master Currency - Kelas Karyawan/button_OK'))
-
 WebUI.setText(findTestObject('Master/Master_Currency/Page_Master Currency - Kelas Karyawan/input'), 'IDR')
 
 WebUI.sendKeys(findTestObject('Master/Master_Currency/Page_Master Currency - Kelas Karyawan/input'), Keys.chord(Keys.ENTER))

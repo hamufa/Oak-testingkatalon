@@ -12,38 +12,38 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>035276b8-1fb1-4f03-8c99-893baac2cf1a</testSuiteGuid>
    <testCaseLink>
-      <guid>4ff2bc09-3c82-4273-9a0f-61ac95003792</guid>
+      <guid>c4706e9e-8ae5-43b4-9e9e-fd42531a755e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Master/Master_Product/Master_Warehouse/warehouse</testCaseId>
+      <testCaseId>Test Cases/Master/Master_Product/Master_Branch/Master_Branch</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3c5bd820-343b-4ad1-85f7-7f69e1c148ca</guid>
+      <guid>761ea251-b557-4412-a186-9bc2a01da40a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Master/Master_Product/Master_Customer/Master_Customer</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7bb964a9-5d4d-4b20-b323-157128e7c418</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Master/Master_Product/Master_Vendor/Master_Vendor</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>03fe16f6-25d3-479b-b778-62f90c9175a5</guid>
+      <guid>483e331c-5451-4669-874d-a380bfb08564</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Master/Master_Product/Master_Truck/Master_Truck</testCaseId>
+      <testCaseId>Test Cases/Master/Master_Product/Master_shipping/Master_shipping</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c450d4d3-7cd7-4f4c-acf0-ed1fd96a13c3</guid>
+      <guid>04a48be5-00a7-4a8f-8dbb-1d2a493ff6a6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Master/Master_Product/Master_Term/Master_Term</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0472340e-edfd-43a5-a148-21bca7256587</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Master/Master_Product/Master_TAX/Master_Tax</testCaseId>
+      <testCaseId>Test Cases/Master/Master_Product/Master_Driver/Master_Driver</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
