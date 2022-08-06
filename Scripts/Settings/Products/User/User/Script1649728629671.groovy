@@ -42,7 +42,7 @@ WebUI.uploadFile(findTestObject('Setting_User/input_Profile Picture_fname'), 'C:
 
 WebUI.setText(findTestObject('Object Repository/Setting_User/input__name_user'), 'asssq')
 
-WebUI.setText(findTestObject('Object Repository/Setting_User/input__email_user'), 'Wiratyausaha@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Setting_User/input__email_user'), 'Wirata@gmail.com')
 
 WebUI.setText(findTestObject('Object Repository/Setting_User/input__mobile_user'), 'fdsfsd')
 
@@ -60,7 +60,9 @@ WebUI.sendKeys(findTestObject('Setting_User/Input_User_Accurate_Access'), Keys.c
 
 WebUI.setText(findTestObject('Setting_User/input_Branch'), 'HEAD OFFICE')
 
-WebUI.sendKeys(findTestObject('Setting_User/input_Branch'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
+WebUI.sendKeys(findTestObject('Setting_User/input_Branch'), Keys.chord(Keys.ENTER))
+
+WebUI.focus(findTestObject('Object Repository/Setting_User/button_Save'))
 
 WebUI.click(findTestObject('Object Repository/Setting_User/button_Save'))
 
@@ -76,7 +78,7 @@ WebUI.setText(findTestObject('Object Repository/Setting_User/input__name_user'),
 
 WebUI.click(findTestObject('Object Repository/Setting_User/div_Profile PictureName  Email  Mobile Phon_7b2fcb'))
 
-WebUI.setText(findTestObject('Object Repository/Setting_User/input__mobile_user'), 'dsfdsaf')
+WebUI.setText(findTestObject('Object Repository/Setting_User/input__mobile_user'), '21543254')
 
 WebUI.click(findTestObject('Object Repository/Setting_User/div_.select2-container .select2-selection--_059811'))
 

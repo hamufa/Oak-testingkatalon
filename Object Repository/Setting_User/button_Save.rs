@@ -6,16 +6,16 @@
    <elementGuidId>8e9bb667-82b0-4ce2-8ec8-7fed16748a9f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#btnSave</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@type = 'button' and @id = 'btnSave' and (text() = 'Save' or . = 'Save')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;btnSave&quot;]</value>
+         <value>/html/body/div[2]/div/div/div[2]/div/div/div[3]/button[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#btnSave</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
